@@ -1,11 +1,26 @@
+import React from 'react';
+import { css } from '@linaria/core';
 import './App.css';
+const header = css`
+  & h1 {
+    text-transform: uppercase;
+  }
+`;
 
-const App = () => {
+const App: React.FC = () => {
   return (
-    <div className="content">
+    <>
+    <header className={header}>
       <h1>Nativa</h1>
-      <p>A mini ecommerce.</p>
-    </div>
+      <p>Um mini ecommerce.</p>
+    </header>
+    <main>
+      <h2>Produtos</h2>
+    </main>
+    <footer>
+      <p>&copy; Nativa. Todos os direitos reservados.</p>
+    </footer>
+    </>
   );
 };
 
