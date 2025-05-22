@@ -1,25 +1,34 @@
 import React from 'react';
-import { css } from '@linaria/core';
 import './App.css';
-const header = css`
-  & h1 {
-    text-transform: uppercase;
+import { styled } from '@linaria/react';
+
+const Header = styled.header`
+  position: sticky;
+  top: 0rem;
+  background-color: #FFF;
+`
+
+const Footer = styled.footer`
+  padding: 0.2rem 0;
+  & p {
+    font-size: 0.8rem;
+    color: #424242;
   }
-`;
+  background-color: #FAFAFA;
+`
 
 const App: React.FC = () => {
   return (
     <>
-    <header className={header}>
+    <Header>
       <h1>Nativa</h1>
-      <p>Um mini ecommerce.</p>
-    </header>
+    </Header>
     <main>
       <h2>Produtos</h2>
+      <Footer>
+        <p>&copy; Nativa. Todos os direitos reservados.</p>
+      </Footer>
     </main>
-    <footer>
-      <p>&copy; Nativa. Todos os direitos reservados.</p>
-    </footer>
     </>
   );
 };
