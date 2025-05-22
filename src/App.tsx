@@ -1,6 +1,7 @@
 import React from 'react';
-import './App.css';
 import { styled } from '@linaria/react';
+import './App.css';
+import product_img from "./api/img/P001.jpg"
 
 const Header = styled.header`
   position: sticky;
@@ -17,14 +18,56 @@ const Footer = styled.footer`
   background-color: #FAFAFA;
 `
 
+const ProductCard = styled.div`
+  background-color: #FAFAFA;
+  width: 15em;
+  
+  & img {
+    width: 100%;
+  }
+  & h3 {
+    height: 1.25rem;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: #424242;
+    margin: 0;
+  }
+  & h4 {
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+  }
+  & span {
+    height: 1.25rem;
+    font-size: 0.9rem;
+    margin: 0;
+  }
+`
+
 const App: React.FC = () => {
   return (
     <>
     <Header>
       <h1>Nativa</h1>
+      <form>
+          <input name="query" type="text" title="Buscar" placeholder='O que está procurando hoje?'/>
+          <button type="submit">Buscar</button>
+      </form>
     </Header>
     <main>
-      <h2>Produtos</h2>
+      <section>
+        <h2>Produtos</h2>
+        <ProductCard>
+          <img src={product_img} alt="Embalagem do Hidratante Revitalizante com tons terrosos e elementos que remetem ao Buriti da Amazônia, e o logo da Nativa." />
+          <h3>YVY</h3>
+          <h4>Hidratante Revitalizante</h4>
+          <div>
+            <span>Polpa de Buriti da Amazônia</span>
+          </div>
+        </ProductCard>
+      </section>
       <Footer>
         <p>&copy; Nativa. Todos os direitos reservados.</p>
       </Footer>
