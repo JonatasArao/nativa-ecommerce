@@ -2,40 +2,40 @@
   {
     "id": "P001",
     "lineId": "L001",
-    "name": "Hidratante Revitalizante Polpa de Buriti da Amazônia",
-    "variant": "Nativa",
+    "name": "Hidratante Revitalizante",
+    "variant": "Polpa de Buriti da Amazônia",
     "keyIngredients": ["Polpa de Buriti"],
     "description": "Nutrição intensa e revitalização com a rica polpa de buriti, direto da Amazônia para sua pele."
   },
   {
     "id": "P002",
     "lineId": "L001",
-    "name": "Óleo Seco Corporal Toque de Castanha do Pará",
-    "variant": "Nativa",
+    "name": "Óleo Seco Corporal",
+    "variant": "Toque de Castanha do Pará",
     "keyIngredients": ["Castanha do Pará"],
     "description": "Toque aveludado e hidratação profunda com o poderoso óleo de castanha do Pará."
   },
   {
     "id": "P003",
     "lineId": "L001",
-    "name": "Sabonete em Barra Cremoso Raízes de Mandacaru do Sertão",
-    "variant": "Nativa",
+    "name": "Sabonete em Barra Cremoso",
+    "variant": "Raízes de Mandacaru do Sertão",
     "keyIngredients": ["Mandacaru"],
     "description": "Limpeza suave e hidratação com a força do mandacaru, ideal para peles expostas ao clima seco."
   },
   {
     "id": "P004",
     "lineId": "L001",
-    "name": "Esfoliante Renovador com Argila Branca e Sementes de Maracujá Silvestre",
-    "variant": "Nativa",
+    "name": "Esfoliante Renovador",
+    "variant": "com Argila Branca e Sementes de Maracujá Silvestre",
     "keyIngredients": ["Argila Branca", "Sementes de Maracujá Silvestre"],
     "description": "Renovação celular suave que purifica e ilumina a pele."
   },
   {
     "id": "P005",
     "lineId": "L001",
-    "name": "Manteiga Corporal Ultra-Hidratante Cupuaçu Imperial",
-    "variant": "Nativa",
+    "name": "Manteiga Corporal Ultra-Hidratante",
+    "variant": "Cupuaçu Imperial",
     "keyIngredients": ["Cupuaçu"],
     "description": "Ultra-hidratação e maciez prolongada com a nobreza da manteiga de cupuaçu."
   },
@@ -43,7 +43,7 @@
     "id": "P006",
     "lineId": "L002",
     "name": "Loção Hidratante Corporal",
-    "variant": "Flor de Algodão Nativa",
+    "variant": "Flor de Algodão",
     "keyIngredients": ["Flor de Algodão"],
     "description": "Cuidado diário com textura leve e fragrância suave para uma pele macia todo o dia."
   },
@@ -51,7 +51,7 @@
     "id": "P007",
     "lineId": "L002",
     "name": "Sabonete Líquido Suavizante",
-    "variant": "Erva Cidreira & Menta Fresca Nativa",
+    "variant": "Erva Cidreira & Menta Fresca",
     "keyIngredients": ["Erva Cidreira", "Menta Fresca"],
     "description": "Limpeza refrescante que acalma e suaviza a pele, ideal para começar ou terminar o dia."
   },
@@ -59,7 +59,7 @@
     "id": "P008",
     "lineId": "L002",
     "name": "Creme para Mãos e Pés",
-    "variant": "Karité e Baunilha da Terra Nativa",
+    "variant": "Karité e Baunilha da Terra",
     "keyIngredients": ["Karité", "Baunilha da Terra"],
     "description": "Nutrição e reparação para mãos e pés com um toque adocicado e reconfortante."
   },
@@ -67,7 +67,7 @@
     "id": "P009",
     "lineId": "L002",
     "name": "Body Splash Desodorante Colônia",
-    "variant": "Amora Silvestre e Jasmim Nativa",
+    "variant": "Amora Silvestre e Jasmim",
     "keyIngredients": ["Amora Silvestre", "Jasmim"],
     "description": "Fragrância leve e alegre para perfumar e refrescar a pele ao longo do dia."
   },
@@ -75,7 +75,7 @@
     "id": "P010",
     "lineId": "L003",
     "name": "Sérum Concentrado Antioxidante",
-    "variant": "Essência de Orquídea da Mata Atlântica Nativa",
+    "variant": "Essência de Orquídea da Mata Atlântica",
     "keyIngredients": ["Orquídea da Mata Atlântica"],
     "description": "Combate os sinais do tempo e protege a pele com o poder antioxidante da orquídea."
   },
@@ -83,7 +83,7 @@
     "id": "P011",
     "lineId": "L003",
     "name": "Gel de Limpeza Facial Purificante",
-    "variant": "Chá Verde e Alecrim do Campo Nativa",
+    "variant": "Chá Verde e Alecrim do Campo",
     "keyIngredients": ["Chá Verde", "Alecrim do Campo"],
     "description": "Limpeza profunda que remove impurezas e controla a oleosidade sem ressecar."
   },
@@ -91,15 +91,15 @@
     "id": "P012",
     "lineId": "L003",
     "name": "Hidratante Protetor Facial FPS 30",
-    "variant": "Toque Seco Mineral Nativa",
+    "variant": "Toque Seco Mineral",
     "keyIngredients": ["Filtros Minerais"],
     "description": "Hidratação e proteção solar com toque seco e acabamento matte."
   },
   {
     "id": "P013",
     "lineId": "L003",
-    "name": "Máscara Facial Iluminadora com Extrato de Pitanga e Argila Rosa",
-    "variant": "Nativa",
+    "name": "Máscara Facial Iluminadora",
+    "variant": "com Extrato de Pitanga e Argila Rosa",
     "keyIngredients": ["Extrato de Pitanga", "Argila Rosa"],
     "description": "Revitaliza, uniformiza o tom da pele e devolve a luminosidade natural."
   },
@@ -107,7 +107,7 @@
     "id": "P014",
     "lineId": "L004",
     "name": "Shampoo Nutritivo",
-    "variant": "Patauá e Jaborandi da Floresta Nativa",
+    "variant": "Patauá e Jaborandi da Floresta",
     "keyIngredients": ["Patauá", "Jaborandi"],
     "description": "Fortalece a raiz, estimula o crescimento e nutre os fios da raiz às pontas."
   },
@@ -115,7 +115,7 @@
     "id": "P015",
     "lineId": "L004",
     "name": "Condicionador Selante",
-    "variant": "Manteiga de Murumuru e Hibisco Nativa",
+    "variant": "Manteiga de Murumuru e Hibisco",
     "keyIngredients": ["Manteiga de Murumuru", "Hibisco"],
     "description": "Sela as cutículas, promove brilho intenso, maciez e desembaraço."
   },
@@ -123,7 +123,7 @@
     "id": "P016",
     "lineId": "L004",
     "name": "Máscara de Tratamento Intensivo",
-    "variant": "Óleo de Pracaxi e Queratina Vegetal Nativa",
+    "variant": "Óleo de Pracaxi e Queratina Vegetal",
     "keyIngredients": ["Óleo de Pracaxi", "Queratina Vegetal"],
     "description": "Reparação profunda para cabelos danificados, devolvendo força e elasticidade."
   },
@@ -131,31 +131,31 @@
     "id": "P017",
     "lineId": "L004",
     "name": "Leave-in Modelador",
-    "variant": "Leite de Coco e Linhaça Dourada Nativa",
+    "variant": "Leite de Coco e Linhaça Dourada",
     "keyIngredients": ["Leite de Coco", "Linhaça Dourada"],
     "description": "Define, controla o frizz e protege os fios do calor, com hidratação leve."
   },
   {
     "id": "P026",
     "lineId": "L005",
-    "name": "Shampoo Suave de Ervas Frescas",
-    "variant": "Nativa Flora",
+    "name": "Shampoo Suave",
+    "variant": "de Ervas Frescas",
     "keyIngredients": ["Blend de Ervas Frescas"],
     "description": "Limpeza diária suave com um blend refrescante de ervas brasileiras."
   },
   {
     "id": "P027",
     "lineId": "L005",
-    "name": "Condicionador Leveza Aloe Vera",
-    "variant": "Nativa Flora",
+    "name": "Condicionador Leveza",
+    "variant": "Aloe Vera",
     "keyIngredients": ["Aloe Vera"],
     "description": "Condicionamento leve que hidrata sem pesar os fios."
   },
   {
     "id": "P022",
     "lineId": "L006",
-    "name": "Base Fluida Efeito Natural com Óleo de Açaí",
-    "variant": "Nativa",
+    "name": "Base Fluida Efeito Natural",
+    "variant": "com Óleo de Açaí",
     "keyIngredients": ["Óleo de Açaí"],
     "description": "Cobertura leve a média com acabamento natural e tratamento antioxidante."
   },
@@ -163,7 +163,7 @@
     "id": "P023",
     "lineId": "L006",
     "name": "Batom Hidratante",
-    "variant": "Cor de Pitanga Madura Nativa",
+    "variant": "Cor de Pitanga Madura",
     "keyIngredients": ["Manteiga de Cacau", "Vitamina E"],
     "description": "Cor vibrante inspirada na pitanga com hidratação e cuidado para os lábios."
   },
@@ -171,7 +171,7 @@
     "id": "P024",
     "lineId": "L006",
     "name": "Sombra em Creme",
-    "variant": "Tom Cobre da Serra Nativa",
+    "variant": "Tom Cobre da Serra",
     "keyIngredients": ["Pigmentos Minerais"],
     "description": "Cor intensa com brilho metalizado e longa duração, inspirada nos minerais da terra."
   },
@@ -179,7 +179,7 @@
     "id": "P025",
     "lineId": "L006",
     "name": "Blush Mineral",
-    "variant": "Pêssego do Cerrado Nativa",
+    "variant": "Pêssego do Cerrado",
     "keyIngredients": ["Pigmentos Minerais"],
     "description": "Cor saudável e natural para as maçãs do rosto, com toque aveludado."
   },
