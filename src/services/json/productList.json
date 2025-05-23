@@ -136,15 +136,15 @@
     "description": "Define, controla o frizz e protege os fios do calor, com hidratação leve."
   },
   {
-    "id": "P026",
+    "id": "P018",
     "lineId": "L005",
     "name": "Shampoo Suave",
-    "variant": "de Ervas Frescas",
+    "variant": "Ervas Frescas",
     "keyIngredients": ["Blend de Ervas Frescas"],
     "description": "Limpeza diária suave com um blend refrescante de ervas brasileiras."
   },
   {
-    "id": "P027",
+    "id": "P019",
     "lineId": "L005",
     "name": "Condicionador Leveza",
     "variant": "Aloe Vera",
@@ -152,7 +152,7 @@
     "description": "Condicionamento leve que hidrata sem pesar os fios."
   },
   {
-    "id": "P022",
+    "id": "P020",
     "lineId": "L006",
     "name": "Base Fluida Efeito Natural",
     "variant": "com Óleo de Açaí",
@@ -160,7 +160,7 @@
     "description": "Cobertura leve a média com acabamento natural e tratamento antioxidante."
   },
   {
-    "id": "P023",
+    "id": "P021",
     "lineId": "L006",
     "name": "Batom Hidratante",
     "variant": "Cor de Pitanga Madura",
@@ -168,7 +168,7 @@
     "description": "Cor vibrante inspirada na pitanga com hidratação e cuidado para os lábios."
   },
   {
-    "id": "P024",
+    "id": "P022",
     "lineId": "L006",
     "name": "Sombra em Creme",
     "variant": "Tom Cobre da Serra",
@@ -176,7 +176,7 @@
     "description": "Cor intensa com brilho metalizado e longa duração, inspirada nos minerais da terra."
   },
   {
-    "id": "P025",
+    "id": "P023",
     "lineId": "L006",
     "name": "Blush Mineral",
     "variant": "Pêssego do Cerrado",
@@ -184,7 +184,7 @@
     "description": "Cor saudável e natural para as maçãs do rosto, com toque aveludado."
   },
   {
-    "id": "P028",
+    "id": "P024",
     "lineId": "L007",
     "name": "Batom Líquido Matte",
     "variant": "Cor Vibração Spira",
@@ -192,7 +192,7 @@
     "description": "Cor intensa com acabamento matte confortável para expressar seu estilo."
   },
   {
-    "id": "P029",
+    "id": "P025",
     "lineId": "L007",
     "name": "Máscara para Cílios Alongamento",
     "variant": "Olhar Expressivo Spira",
@@ -200,7 +200,7 @@
     "description": "Cílios longos e definidos para um olhar marcante e cheio de atitude."
   },
   {
-    "id": "P030",
+    "id": "P026",
     "lineId": "L007",
     "name": "Gel Hidratante Facial Antioleosidade",
     "variant": "Pele Fresh Spira",
@@ -208,7 +208,7 @@
     "description": "Hidratação leve com controle de brilho para uma pele fresca e equilibrada."
   },
   {
-    "id": "P031",
+    "id": "P027",
     "lineId": "L008",
     "name": "Óleo Desodorante Corporal Hidratante",
     "variant": "Amêndoas Doces Seiva",
@@ -216,7 +216,7 @@
     "description": "Hidratação profunda com o toque suave e perfume delicado das amêndoas doces."
   },
   {
-    "id": "P032",
+    "id": "P028",
     "lineId": "L008",
     "name": "Óleo Iluminador Corporal Pós-Sol",
     "variant": "Buriti e Partículas Douradas Seiva",
@@ -224,7 +224,7 @@
     "description": "Realça o bronzeado, hidrata e ilumina a pele com a riqueza do buriti e partículas de brilho."
   },
   {
-    "id": "P033",
+    "id": "P029",
     "lineId": "L009",
     "name": "Desodorante Colônia Masculino",
     "variant": "Impeto Aquático",
@@ -232,7 +232,7 @@
     "description": "Uma explosão de frescor aquático e notas herbais para o homem de espírito livre."
   },
   {
-    "id": "P034",
+    "id": "P030",
     "lineId": "L009",
     "name": "Desodorante Colônia Feminino",
     "variant": "Impeto Cítrico Floral",
@@ -240,7 +240,7 @@
     "description": "Uma fragrância vibrante e energizante que combina o frescor cítrico com a delicadeza floral."
   },
   {
-    "id": "P035",
+    "id": "P031",
     "lineId": "L010",
     "name": "Deo Parfum Feminino",
     "variant": "Essentia Floral Amadeirado",
@@ -248,7 +248,7 @@
     "description": "Uma fragrância sofisticada e envolvente que combina a nobreza das flores com madeiras preciosas."
   },
   {
-    "id": "P036",
+    "id": "P032",
     "lineId": "L010",
     "name": "Deo Parfum Masculino",
     "variant": "Essentia Ambarado Especiado",
@@ -256,7 +256,7 @@
     "description": "Uma assinatura marcante e elegante, com notas quentes de âmbar e especiarias."
   },
   {
-    "id": "P037",
+    "id": "P033",
     "lineId": "L011",
     "name": "Colônia Desodorante Compartilhável",
     "variant": "Anima Frutal Divertido",
@@ -264,7 +264,7 @@
     "description": "Uma fragrância alegre e irreverente que mistura o doce e o picante, para todos os gêneros."
   },
   {
-    "id": "P038",
+    "id": "P034",
     "lineId": "L011",
     "name": "Spray Corporal Perfumado",
     "variant": "Anima Mix Cítrico",
@@ -272,7 +272,7 @@
     "description": "Um splash de energia e bom humor com notas cítricas vibrantes para qualquer hora do dia."
   },
   {
-    "id": "P039",
+    "id": "P035",
     "lineId": "L012",
     "name": "Óleo Vegetal para Massagem em Bebês",
     "variant": "Ninhar e Florir Toque Suave",
@@ -280,7 +280,7 @@
     "description": "Cuidado e carinho em forma de óleo para massagem, com ingredientes suaves para a pele delicada do bebê."
   },
   {
-    "id": "P040",
+    "id": "P036",
     "lineId": "L012",
     "name": "Hidratante Preventivo de Estrias para Gestantes",
     "variant": "Ninhar e Florir Elasticidade",
@@ -288,7 +288,7 @@
     "description": "Hidratação intensiva que auxilia na prevenção de estrias, cuidando da pele da gestante com segurança."
   },
   {
-    "id": "P041",
+    "id": "P037",
     "lineId": "L012",
     "name": "Sabonete Líquido Glicerinado da Cabeça aos Pés",
     "variant": "Ninhar e Florir Banho de Afeto",
@@ -296,7 +296,7 @@
     "description": "Limpeza extra suave para o cabelo e corpo do bebê, sem lágrimas e com muito carinho."
   },
   {
-    "id": "P042",
+    "id": "P038",
     "lineId": "L013",
     "name": "Sabonete em Barra Puro Vegetal",
     "variant": "Capim Cidreira Relaxante",
@@ -304,7 +304,7 @@
     "description": "Limpeza suave com a fragrância calmante do capim cidreira para um banho relaxante."
   },
   {
-    "id": "P043",
+    "id": "P039",
     "lineId": "L013",
     "name": "Loção Hidratante Desodorante Corporal",
     "variant": "Capim Cidreira Frescor Suave",
