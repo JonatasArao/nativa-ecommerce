@@ -1,7 +1,9 @@
 import React from 'react';
 import { styled } from '@linaria/react';
+import { css } from '@linaria/core';
 import './App.css';
-import product_img from "./api/img/P001.jpg"
+import Logo from './static/img/nativa.svg?react';
+import product_img from "./services/img/P001.jpg"
 
 const Header = styled.header`
   position: sticky;
@@ -46,10 +48,19 @@ const ProductCard = styled.div`
   }
 `
 
+const logoStyle = css`
+  width: 10em;
+  height: auto;
+  path {
+    fill: #000;
+  }
+`
+
 const App: React.FC = () => {
   return (
     <>
     <Header>
+      <Logo className={logoStyle} />
       <h1>Nativa</h1>
       <form>
           <input name="query" type="text" title="Buscar" placeholder='O que está procurando hoje?'/>
