@@ -1,9 +1,11 @@
 import React from 'react';
 import { styled } from '@linaria/react';
 import { css } from '@linaria/core';
+import { Line, Product } from "./models";
+import productList from './static/json/productList.json';
+import lineList from './static/json/lineList.json';
 import './App.css';
-import Logo from './static/img/nativa.svg?react';
-import product_img from "./services/img/P001.jpg"
+import Logo from './static/svg/nativa.svg?react';
 
 const Header = styled.header`
   position: sticky;
@@ -28,21 +30,18 @@ const ProductCard = styled.div`
     width: 100%;
   }
   & h3 {
-    height: 1.25rem;
     font-size: 0.85rem;
     font-weight: 400;
     color: #424242;
     margin: 0;
   }
   & h4 {
-    height: 2rem;
     font-size: 1.2rem;
     font-weight: 400;
     color: #000;
     margin: 0;
   }
   & span {
-    height: 1.25rem;
     font-size: 0.9rem;
     margin: 0;
   }
@@ -56,7 +55,16 @@ const logoStyle = css`
   }
 `
 
+const productCardSection = css`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  justify-items: center;
+`
+
 const App: React.FC = () => {
+  const lines: Line[] = lineList;
+  const products: Product[] = productList;
   return (
     <>
     <Header>
@@ -70,14 +78,18 @@ const App: React.FC = () => {
     <main>
       <section>
         <h2>Produtos</h2>
-        <ProductCard>
-          <img src={product_img} alt="Embalagem do Hidratante Revitalizante com tons terrosos e elementos que remetem ao Buriti da Amazônia, e o logo da Nativa." />
-          <h3>YVY</h3>
-          <h4>Hidratante Revitalizante</h4>
-          <div>
-            <span>Polpa de Buriti da Amazônia</span>
-          </div>
-        </ProductCard>
+        <div className={productCardSection}>
+          {products.map(produto => (
+            <ProductCard key={produto.id}>
+              <img src={`img/${produto.id}.jpg`} alt={produto.description} />
+              <h3>{lines.find(l => l.id === produto.lineId)?.name ?? ''}</h3>
+              <h4>{produto.name}</h4>
+              <div>
+                <span>{produto.variant}</span>
+              </div>
+            </ProductCard>
+          ))}
+        </div>
       </section>
       <Footer>
         <p>&copy; Nativa. Todos os direitos reservados.</p>

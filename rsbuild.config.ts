@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [pluginBabel(), pluginReact(), pluginSvgr()],
   html: {
     title: 'Nativa',
-    favicon: './src/static/img/nativa_logo.svg',
+    favicon: './src/static/svg/nativa_logo.svg',
   },
    tools: {
     rspack: (config, { addRules }) => {
