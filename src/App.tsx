@@ -1,9 +1,7 @@
 import React from 'react';
 import { styled } from '@linaria/react';
 import { css } from '@linaria/core';
-import { Line, Product } from "./models";
-import productList from './static/json/productList.json';
-import lineList from './static/json/lineList.json';
+import { ProductService } from './services';
 import './App.css';
 import Logo from './static/svg/nativa.svg?react';
 
@@ -63,8 +61,7 @@ const productCardSection = css`
 `
 
 const App: React.FC = () => {
-  const lines: Line[] = lineList;
-  const products: Product[] = productList;
+  const products = ProductService.getAll();
   return (
     <>
     <Header>
@@ -82,7 +79,7 @@ const App: React.FC = () => {
           {products.map(produto => (
             <ProductCard key={produto.id}>
               <img src={`img/${produto.id}.jpg`} alt={produto.description} />
-              <h3>{lines.find(l => l.id === produto.lineId)?.name ?? ''}</h3>
+              <h3>{produto.line.name}</h3>
               <h4>{produto.name}</h4>
               <div>
                 <span>{produto.variant}</span>
