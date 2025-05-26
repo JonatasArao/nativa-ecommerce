@@ -8,5 +8,13 @@ export const globals = css`
       margin: 0;
       font-family: "Roboto", Arial, sans-serif;
     }
+    html {
+      box-sizing: border-box;
+    }
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
   }
 `;
