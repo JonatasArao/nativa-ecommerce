@@ -1,9 +1,9 @@
 import React from 'react';
+import './AppStyle.tsx';
 import { styled } from '@linaria/react';
 import { css } from '@linaria/core';
 import { ProductService } from './services';
 import { ProductCard } from './ui';
-import './App.css';
 import Logo from './static/svg/nativa.svg?react';
 
 const Header = styled.header`
