@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rsbuild build",
     "dev": "rsbuild dev --open",
-    "preview": "rsbuild preview"
+    "preview": "rsbuild preview",
+    "deploy": "rsbuild build && gh-pages -d dist"
   },
   "dependencies": {
     "@linaria/core": "^6.3.0",
@@ -24,6 +25,7 @@
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@wyw-in-js/webpack-loader": "^0.6.0",
+    "gh-pages": "^6.3.0",
     "typescript": "^5.8.3"
   }
 }

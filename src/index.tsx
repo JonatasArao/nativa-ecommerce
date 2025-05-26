@@ -6,12 +6,21 @@ import {
 } from "react-router";
 import App from './App';
 
-let router = createBrowserRouter([
+let router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      Component: App
+    },
+    {
+      path: "*",
+      Component: () => <div>404 not found</div>
+    }
+  ],
   {
-    path: "/",
-    Component: App
+    basename: import.meta.env.MODE === "production" ? "/mini-ecommerce" : "/"
   }
-]);
+);
 
 const rootEl = document.getElementById('root');
 if (rootEl) {
