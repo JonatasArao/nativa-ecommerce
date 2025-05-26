@@ -13,6 +13,11 @@ export interface ProductRaw {
 	keyIngredients: string[];
 	description: string;
 	altText: string;
+	price: number;
+	currency: string;
+	onSale: boolean;
+	promotionalPrice: number | null;
+	isAvailable: boolean;
 }
 
 export interface Product {
@@ -23,4 +28,9 @@ export interface Product {
 	keyIngredients: string[];
 	description: string;
 	altText: string;
+	price: number;
+	currency: string;
+	onSale: boolean;
+	promotionalPrice: number | null;
+	isAvailable: boolean;
 }

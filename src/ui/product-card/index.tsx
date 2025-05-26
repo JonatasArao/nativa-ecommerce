@@ -34,11 +34,17 @@ const style = css`
 const ProductCard : React.FC<ProductCardProps> = ({ product }) => {
   return (
 	<div className={style}>
-	  <img src={`img/${product.id}.jpg`} alt={product.altText} />
+	  <img src={`img/${product.id}.jpg`} alt={product.altText} loading='lazy' />
 	  <h3>{product.line.name}</h3>
 	  <h4>{product.name}</h4>
 	  <div>
-		<span>{product.variant}</span>
+		  <span>{product.variant}</span>
+      <p>
+        {
+          new Intl.NumberFormat("pt-BR", { style: "currency", currency: product.currency})
+            .format(product.price)
+        }
+      </p>
 	  </div>
 	</div>
   );
