@@ -2,6 +2,7 @@ import React from 'react';
 import { styled } from '@linaria/react';
 import { css } from '@linaria/core';
 import { ProductService } from './services';
+import ProductCard from './ui/product-card';
 import './App.css';
 import Logo from './static/svg/nativa.svg?react';
 
@@ -18,31 +19,6 @@ const Footer = styled.footer`
     color: #424242;
   }
   background-color: #FAFAFA;
-`
-
-const ProductCard = styled.div`
-  background-color: #FAFAFA;
-  width: 15em;
-  
-  & img {
-    width: 100%;
-  }
-  & h3 {
-    font-size: 0.85rem;
-    font-weight: 400;
-    color: #424242;
-    margin: 0;
-  }
-  & h4 {
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: #000;
-    margin: 0;
-  }
-  & span {
-    font-size: 0.9rem;
-    margin: 0;
-  }
 `
 
 const logoStyle = css`
@@ -76,15 +52,8 @@ const App: React.FC = () => {
       <section>
         <h2>Produtos</h2>
         <div className={productCardSection}>
-          {products.map(produto => (
-            <ProductCard key={produto.id}>
-              <img src={`img/${produto.id}.jpg`} alt={produto.description} />
-              <h3>{produto.line.name}</h3>
-              <h4>{produto.name}</h4>
-              <div>
-                <span>{produto.variant}</span>
-              </div>
-            </ProductCard>
+          {products.map(product => (
+            <ProductCard key={product.id} product={product}/>
           ))}
         </div>
       </section>
