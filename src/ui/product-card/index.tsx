@@ -2,7 +2,7 @@ import React from 'react';
 import { css } from '@linaria/core';
 import { Product } from '../../models';
 
-interface Props {
+interface ProductCardProps {
 	product : Product;
 }
 
@@ -31,10 +31,10 @@ const style = css`
   }
 `
 
-const ProductCard : React.FC<Props> = ({ product }) => {
+const ProductCard : React.FC<ProductCardProps> = ({ product }) => {
   return (
 	<div className={style}>
-	  <img src={`img/${product.id}.jpg`} alt={product.description} />
+	  <img src={`img/${product.id}.jpg`} alt={product.altText} />
 	  <h3>{product.line.name}</h3>
 	  <h4>{product.name}</h4>
 	  <div>

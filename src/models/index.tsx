@@ -12,6 +12,7 @@ export interface ProductRaw {
 	variant: string;
 	keyIngredients: string[];
 	description: string;
+	altText: string;
 }
 
 export interface Product {
@@ -21,4 +22,5 @@ export interface Product {
 	variant: string;
 	keyIngredients: string[];
 	description: string;
+	altText: string;
 }

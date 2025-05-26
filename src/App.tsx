@@ -2,7 +2,7 @@ import React from 'react';
 import { styled } from '@linaria/react';
 import { css } from '@linaria/core';
 import { ProductService } from './services';
-import ProductCard from './ui/product-card';
+import { ProductCard } from './ui';
 import './App.css';
 import Logo from './static/svg/nativa.svg?react';
 
@@ -53,7 +53,7 @@ const App: React.FC = () => {
         <h2>Produtos</h2>
         <div className={productCardSection}>
           {products.map(product => (
-            <ProductCard key={product.id} product={product}/>
+            <ProductCard product={product} key={product.id}/>
           ))}
         </div>
       </section>

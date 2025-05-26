@@ -5,7 +5,8 @@
     "name": "Hidratante Revitalizante",
     "variant": "Polpa de Buriti da Amazônia",
     "keyIngredients": ["Polpa de Buriti"],
-    "description": "Nutrição intensa e revitalização com a rica polpa de buriti, direto da Amazônia para sua pele."
+    "description": "Nutrição intensa e revitalização com a rica polpa de buriti, direto da Amazônia para sua pele.",
+    "altText": "Pote cilíndrico baixo, cor creme, com rótulo exibindo o logo Nativa e o nome YVY. Ilustrações de buriti e folhas tropicais. Produto fotografado em estúdio com fundo neutro."
   },
   {
     "id": "P002",
@@ -13,7 +14,8 @@
     "name": "Óleo Seco Corporal",
     "variant": "Toque de Castanha do Pará",
     "keyIngredients": ["Castanha do Pará"],
-    "description": "Toque aveludado e hidratação profunda com o poderoso óleo de castanha do Pará."
+    "description": "Toque aveludado e hidratação profunda com o poderoso óleo de castanha do Pará.",
+    "altText": "Frasco cilíndrico âmbar, com rótulo bege claro. Logo Nativa e nome YVY em destaque. Ilustrações de castanhas do Pará e folhagens. Fundo neutro, iluminação de estúdio."
   },
   {
     "id": "P003",
@@ -21,7 +23,8 @@
     "name": "Sabonete em Barra Cremoso",
     "variant": "Raízes de Mandacaru do Sertão",
     "keyIngredients": ["Mandacaru"],
-    "description": "Limpeza suave e hidratação com a força do mandacaru, ideal para peles expostas ao clima seco."
+    "description": "Limpeza suave e hidratação com a força do mandacaru, ideal para peles expostas ao clima seco.",
+    "altText": "Sabonete em barra de cor clara, parcialmente dentro de uma embalagem de papel com tons terrosos e verdes. Ilustração de mandacaru com raízes. Logo Nativa e nome YVY visíveis."
   },
   {
     "id": "P004",
@@ -29,7 +32,8 @@
     "name": "Esfoliante Renovador",
     "variant": "com Argila Branca e Sementes de Maracujá Silvestre",
     "keyIngredients": ["Argila Branca", "Sementes de Maracujá Silvestre"],
-    "description": "Renovação celular suave que purifica e ilumina a pele."
+    "description": "Renovação celular suave que purifica e ilumina a pele.",
+    "altText": "Tubo branco com tampa verde escura. Rótulo com logo Nativa e nome YVY. Ilustrações de folhas verdes e maracujá cortado ao meio. Textura do esfoliante visível ao lado. Fundo claro."
   },
   {
     "id": "P005",
@@ -37,7 +41,8 @@
     "name": "Manteiga Corporal Ultra-Hidratante",
     "variant": "Cupuaçu Imperial",
     "keyIngredients": ["Cupuaçu"],
-    "description": "Ultra-hidratação e maciez prolongada com a nobreza da manteiga de cupuaçu."
+    "description": "Ultra-hidratação e maciez prolongada com a nobreza da manteiga de cupuaçu.",
+    "altText": "Pote redondo, cor marrom escura, com rótulo em tons terrosos. Logo Nativa e nome YVY. Ilustrações de cupuaçu e folhas. Apresentação em estúdio com fundo neutro."
   },
   {
     "id": "P006",
@@ -45,7 +50,8 @@
     "name": "Loção Hidratante Corporal",
     "variant": "Flor de Algodão",
     "keyIngredients": ["Flor de Algodão"],
-    "description": "Cuidado diário com textura leve e fragrância suave para uma pele macia todo o dia."
+    "description": "Cuidado diário com textura leve e fragrância suave para uma pele macia todo o dia.",
+    "altText": "Frasco branco com pump verde escuro. Rótulo com tons suaves de lilás e ilustração de flor de algodão. Logo Nativa e nome BemViver. Fundo neutro, iluminação suave."
   },
   {
     "id": "P007",
@@ -53,7 +59,8 @@
     "name": "Sabonete Líquido Suavizante",
     "variant": "Erva Cidreira & Menta Fresca",
     "keyIngredients": ["Erva Cidreira", "Menta Fresca"],
-    "description": "Limpeza refrescante que acalma e suaviza a pele, ideal para começar ou terminar o dia."
+    "description": "Limpeza refrescante que acalma e suaviza a pele, ideal para começar ou terminar o dia.",
+    "altText": "Frasco transparente com líquido verde claro e pump preto. Rótulo com ilustrações de erva cidreira e folhas de menta. Logo Nativa e nome BemViver. Fundo claro."
   },
   {
     "id": "P008",
@@ -61,7 +68,8 @@
     "name": "Creme para Mãos e Pés",
     "variant": "Karité e Baunilha da Terra",
     "keyIngredients": ["Karité", "Baunilha da Terra"],
-    "description": "Nutrição e reparação para mãos e pés com um toque adocicado e reconfortante."
+    "description": "Nutrição e reparação para mãos e pés com um toque adocicado e reconfortante.",
+    "altText": "Tubo branco com tampa flip-top branca. Rótulo em tons de bege e marrom, com ilustrações de karité e fava de baunilha. Logo Nativa e nome BemViver. Fundo neutro."
   },
   {
     "id": "P009",
@@ -69,7 +77,8 @@
     "name": "Body Splash Desodorante Colônia",
     "variant": "Amora Silvestre e Jasmim",
     "keyIngredients": ["Amora Silvestre", "Jasmim"],
-    "description": "Fragrância leve e alegre para perfumar e refrescar a pele ao longo do dia."
+    "description": "Fragrância leve e alegre para perfumar e refrescar a pele ao longo do dia.",
+    "altText": "Frasco spray cilíndrico branco. Rótulo com ilustrações de amoras silvestres e flores de jasmim em tons de roxo e branco. Logo Nativa e nome BemViver. Fundo claro."
   },
   {
     "id": "P010",
@@ -77,7 +86,8 @@
     "name": "Sérum Concentrado Antioxidante",
     "variant": "Essência de Orquídea da Mata Atlântica",
     "keyIngredients": ["Orquídea da Mata Atlântica"],
-    "description": "Combate os sinais do tempo e protege a pele com o poder antioxidante da orquídea."
+    "description": "Combate os sinais do tempo e protege a pele com o poder antioxidante da orquídea.",
+    "altText": "Frasco de sérum de vidro escuro com conta-gotas preto e dourado. Rótulo branco com logo Nativa e nome Tempus. Caixa com ilustração de orquídea ao lado. Iluminação de estúdio."
   },
   {
     "id": "P011",
@@ -85,7 +95,8 @@
     "name": "Gel de Limpeza Facial Purificante",
     "variant": "Chá Verde e Alecrim do Campo",
     "keyIngredients": ["Chá Verde", "Alecrim do Campo"],
-    "description": "Limpeza profunda que remove impurezas e controla a oleosidade sem ressecar."
+    "description": "Limpeza profunda que remove impurezas e controla a oleosidade sem ressecar.",
+    "altText": "Frasco e tubo brancos com detalhes em verde. Ilustrações de folhas de chá verde e alecrim. Logo Nativa e nome Tempus. Gel escorrendo ao fundo. Fundo neutro."
   },
   {
     "id": "P012",
@@ -93,7 +104,8 @@
     "name": "Hidratante Protetor Facial FPS 30",
     "variant": "Toque Seco Mineral",
     "keyIngredients": ["Filtros Minerais"],
-    "description": "Hidratação e proteção solar com toque seco e acabamento matte."
+    "description": "Hidratação e proteção solar com toque seco e acabamento matte.",
+    "altText": "Tubo e frasco pump brancos, com design minimalista. Rótulos brancos com detalhes em verde. Logo Nativa e nome Tempus. Fundo claro, iluminação de estúdio."
   },
   {
     "id": "P013",
@@ -101,7 +113,8 @@
     "name": "Máscara Facial Iluminadora",
     "variant": "com Extrato de Pitanga e Argila Rosa",
     "keyIngredients": ["Extrato de Pitanga", "Argila Rosa"],
-    "description": "Revitaliza, uniformiza o tom da pele e devolve a luminosidade natural."
+    "description": "Revitaliza, uniformiza o tom da pele e devolve a luminosidade natural.",
+    "altText": "Pote branco com tampa branca. Rótulo rosa claro com ilustrações de pitanga. Sachê correspondente ao fundo. Textura rosa da máscara visível. Logo Nativa e nome Tempus."
   },
   {
     "id": "P014",
@@ -109,7 +122,8 @@
     "name": "Shampoo Nutritivo",
     "variant": "Patauá e Jaborandi da Floresta",
     "keyIngredients": ["Patauá", "Jaborandi"],
-    "description": "Fortalece a raiz, estimula o crescimento e nutre os fios da raiz às pontas."
+    "description": "Fortalece a raiz, estimula o crescimento e nutre os fios da raiz às pontas.",
+    "altText": "Frasco de shampoo cilíndrico, cor marrom escura. Rótulo com ilustrações vibrantes de patauá, jaborandi e flores. Logo Nativa e nome Candeia. Fundo neutro."
   },
   {
     "id": "P015",
@@ -117,7 +131,8 @@
     "name": "Condicionador Selante",
     "variant": "Manteiga de Murumuru e Hibisco",
     "keyIngredients": ["Manteiga de Murumuru", "Hibisco"],
-    "description": "Sela as cutículas, promove brilho intenso, maciez e desembaraço."
+    "description": "Sela as cutículas, promove brilho intenso, maciez e desembaraço.",
+    "altText": "Tubo de condicionador em tons de bege e laranja claro, com tampa verde escura. Ilustrações de hibisco e manteiga de murumuru. Logo Nativa e nome Candeia. Fundo claro."
   },
   {
     "id": "P016",
@@ -125,7 +140,8 @@
     "name": "Máscara de Tratamento Intensivo",
     "variant": "Óleo de Pracaxi e Queratina Vegetal",
     "keyIngredients": ["Óleo de Pracaxi", "Queratina Vegetal"],
-    "description": "Reparação profunda para cabelos danificados, devolvendo força e elasticidade."
+    "description": "Reparação profunda para cabelos danificados, devolvendo força e elasticidade.",
+    "altText": "Pote de máscara capilar creme com tampa preta. Rótulo com ilustrações de pracaxi e elementos vegetais em tons de amarelo e verde. Logo Nativa e nome Candeia. Fundo neutro."
   },
   {
     "id": "P017",
@@ -133,7 +149,8 @@
     "name": "Leave-in Modelador",
     "variant": "Leite de Coco e Linhaça Dourada",
     "keyIngredients": ["Leite de Coco", "Linhaça Dourada"],
-    "description": "Define, controla o frizz e protege os fios do calor, com hidratação leve."
+    "description": "Define, controla o frizz e protege os fios do calor, com hidratação leve.",
+    "altText": "Tubo e frasco spray brancos. Rótulos com grafismos de sementes de linhaça dourada e coco. Logo Nativa e nome Candeia. Fundo claro, iluminação de estúdio."
   },
   {
     "id": "P018",
@@ -141,7 +158,8 @@
     "name": "Shampoo Suave",
     "variant": "Ervas Frescas",
     "keyIngredients": ["Blend de Ervas Frescas"],
-    "description": "Limpeza diária suave com um blend refrescante de ervas brasileiras."
+    "description": "Limpeza diária suave com um blend refrescante de ervas brasileiras.",
+    "altText": "Frasco de shampoo verde claro com tampa verde escura. Rótulo com ilustrações de diversas ervas frescas. Logo Nativa e nome Flora. Fundo rosado claro."
   },
   {
     "id": "P019",
@@ -149,7 +167,8 @@
     "name": "Condicionador Leveza",
     "variant": "Aloe Vera",
     "keyIngredients": ["Aloe Vera"],
-    "description": "Condicionamento leve que hidrata sem pesar os fios."
+    "description": "Condicionamento leve que hidrata sem pesar os fios.",
+    "altText": "Tubo de condicionador branco com tampa verde escura. Rótulo com ilustração de aloe vera e gotas d'água. Logo Nativa e nome Flora. Fundo neutro."
   },
   {
     "id": "P020",
@@ -157,7 +176,8 @@
     "name": "Base Fluida Efeito Natural",
     "variant": "com Óleo de Açaí",
     "keyIngredients": ["Óleo de Açaí"],
-    "description": "Cobertura leve a média com acabamento natural e tratamento antioxidante."
+    "description": "Cobertura leve a média com acabamento natural e tratamento antioxidante.",
+    "altText": "Frasco de base fluida de vidro com tampa preta. Líquido cor de pele visível. Rótulo bege claro com logo Nativa e nome Unica. Fundo neutro, iluminação de estúdio."
   },
   {
     "id": "P021",
@@ -165,7 +185,8 @@
     "name": "Batom Hidratante",
     "variant": "Cor de Pitanga Madura",
     "keyIngredients": ["Manteiga de Cacau", "Vitamina E"],
-    "description": "Cor vibrante inspirada na pitanga com hidratação e cuidado para os lábios."
+    "description": "Cor vibrante inspirada na pitanga com hidratação e cuidado para os lábios.",
+    "altText": "Tubo de batom vermelho com base prateada. Bala do batom cor pitanga visível. Caixa ao lado com ilustração de pitangas. Logo Nativa e nome Unica. Fundo claro."
   },
   {
     "id": "P022",
@@ -173,7 +194,8 @@
     "name": "Sombra em Creme",
     "variant": "Tom Cobre da Serra",
     "keyIngredients": ["Pigmentos Minerais"],
-    "description": "Cor intensa com brilho metalizado e longa duração, inspirada nos minerais da terra."
+    "description": "Cor intensa com brilho metalizado e longa duração, inspirada nos minerais da terra.",
+    "altText": "Potinho quadrado de sombra em creme com tampa cor cobre. Rótulo com logo Nativa e nome Unica. Textura da sombra cobre espalhada ao fundo. Fundo branco."
   },
   {
     "id": "P023",
@@ -181,7 +203,8 @@
     "name": "Blush Mineral",
     "variant": "Pêssego do Cerrado",
     "keyIngredients": ["Pigmentos Minerais"],
-    "description": "Cor saudável e natural para as maçãs do rosto, com toque aveludado."
+    "description": "Cor saudável e natural para as maçãs do rosto, com toque aveludado.",
+    "altText": "Compacto de blush redondo, cor pêssego. Tampa transparente mostrando a cor do produto. Logo Nativa e nome Unica na embalagem. Fundo neutro, iluminação de estúdio."
   },
   {
     "id": "P024",
@@ -189,7 +212,8 @@
     "name": "Batom Líquido Matte",
     "variant": "Cor Vibração Spira",
     "keyIngredients": ["Pigmentos Intensos", "Vitamina E"],
-    "description": "Cor intensa com acabamento matte confortável para expressar seu estilo."
+    "description": "Cor intensa com acabamento matte confortável para expressar seu estilo.",
+    "altText": "Tubo de batom líquido com tampa verde escura e corpo transparente mostrando a cor vermelha vibrante. Aplicador visível. Logo Nativa e nome Spira. Traço da cor ao fundo."
   },
   {
     "id": "P025",
@@ -197,7 +221,8 @@
     "name": "Máscara para Cílios Alongamento",
     "variant": "Olhar Expressivo Spira",
     "keyIngredients": ["Fibras Alongadoras", "Óleo de Rícino"],
-    "description": "Cílios longos e definidos para um olhar marcante e cheio de atitude."
+    "description": "Cílios longos e definidos para um olhar marcante e cheio de atitude.",
+    "altText": "Tubo de máscara para cílios verde claro com tampa preta. Aplicador com cerdas pretas visível ao lado. Logo Nativa e nome Spira. Fundo neutro."
   },
   {
     "id": "P026",
@@ -205,7 +230,8 @@
     "name": "Gel Hidratante Facial Antioleosidade",
     "variant": "Pele Fresh Spira",
     "keyIngredients": ["Extrato de Hamamélis", "Ácido Salicílico Natural"],
-    "description": "Hidratação leve com controle de brilho para uma pele fresca e equilibrada."
+    "description": "Hidratação leve com controle de brilho para uma pele fresca e equilibrada.",
+    "altText": "Tubo branco de gel hidratante facial com tampa verde escura. Detalhes gráficos em tons de verde e azul. Logo Nativa e nome Spira. Fundo claro."
   },
   {
     "id": "P027",
@@ -213,7 +239,8 @@
     "name": "Óleo Desodorante Corporal Hidratante",
     "variant": "Amêndoas Doces Seiva",
     "keyIngredients": ["Óleo de Amêndoas Doces", "Vitamina E"],
-    "description": "Hidratação profunda com o toque suave e perfume delicado das amêndoas doces."
+    "description": "Hidratação profunda com o toque suave e perfume delicado das amêndoas doces.",
+    "altText": "Frasco de óleo corporal marrom translúcido com tampa verde escura. Rótulo com ilustrações de amêndoas. Logo Nativa e nome Seiva. Fundo com sombra projetada."
   },
   {
     "id": "P028",
@@ -221,7 +248,8 @@
     "name": "Óleo Iluminador Corporal Pós-Sol",
     "variant": "Buriti e Partículas Douradas Seiva",
     "keyIngredients": ["Óleo de Buriti", "Mica Dourada"],
-    "description": "Realça o bronzeado, hidrata e ilumina a pele com a riqueza do buriti e partículas de brilho."
+    "description": "Realça o bronzeado, hidrata e ilumina a pele com a riqueza do buriti e partículas de brilho.",
+    "altText": "Frasco de óleo iluminador transparente, mostrando líquido dourado com partículas de brilho. Tampa branca. Rótulo com ilustrações de buriti. Logo Nativa e nome Seiva. Fundo claro."
   },
   {
     "id": "P029",
@@ -229,7 +257,8 @@
     "name": "Desodorante Colônia Masculino",
     "variant": "Impeto Aquático",
     "keyIngredients": ["Notas Marinhas", "Madeiras Frescas", "Ervas Aromáticas"],
-    "description": "Uma explosão de frescor aquático e notas herbais para o homem de espírito livre."
+    "description": "Uma explosão de frescor aquático e notas herbais para o homem de espírito livre.",
+    "altText": "Frasco de colônia masculino de vidro azulado com tampa preta. Caixa azul escura ao lado. Rótulo com grafismos azuis e nome Impeto. Logo Nativa. Fundo neutro."
   },
   {
     "id": "P030",
@@ -237,7 +266,8 @@
     "name": "Desodorante Colônia Feminino",
     "variant": "Impeto Cítrico Floral",
     "keyIngredients": ["Frutas Cítricas", "Flores Leves", "Musk Suave"],
-    "description": "Uma fragrância vibrante e energizante que combina o frescor cítrico com a delicadeza floral."
+    "description": "Uma fragrância vibrante e energizante que combina o frescor cítrico com a delicadeza floral.",
+    "altText": "Frasco de colônia feminino de vidro transparente com líquido amarelo claro e tampa preta. Caixa com ilustrações de laranjas e folhas. Nome Impeto. Logo Nativa. Fundo claro."
   },
   {
     "id": "P031",
@@ -245,7 +275,8 @@
     "name": "Deo Parfum Feminino",
     "variant": "Essentia Floral Amadeirado",
     "keyIngredients": ["Jasmim Imperial", "Sândalo", "Baunilha de Madagascar"],
-    "description": "Uma fragrância sofisticada e envolvente que combina a nobreza das flores com madeiras preciosas."
+    "description": "Uma fragrância sofisticada e envolvente que combina a nobreza das flores com madeiras preciosas.",
+    "altText": "Frasco de deo parfum feminino de vidro transparente, formato retangular elegante, com tampa dourada. Líquido cor pêssego. Rótulo branco. Logo Nativa e nome Essentia. Fundo com sombras."
   },
   {
     "id": "P032",
@@ -253,7 +284,8 @@
     "name": "Deo Parfum Masculino",
     "variant": "Essentia Ambarado Especiado",
     "keyIngredients": ["Âmbar Negro", "Cardamomo", "Patchouli"],
-    "description": "Uma assinatura marcante e elegante, com notas quentes de âmbar e especiarias."
+    "description": "Uma assinatura marcante e elegante, com notas quentes de âmbar e especiarias.",
+    "altText": "Frasco de deo parfum masculino de vidro escuro, formato retangular robusto, com tampa preta e detalhe dourado. Líquido âmbar. Rótulo preto. Logo Nativa e nome Essentia. Fundo neutro."
   },
   {
     "id": "P033",
@@ -261,7 +293,8 @@
     "name": "Colônia Desodorante Compartilhável",
     "variant": "Anima Frutal Divertido",
     "keyIngredients": ["Frutas Vermelhas", "Caramelo", "Pimenta Rosa"],
-    "description": "Uma fragrância alegre e irreverente que mistura o doce e o picante, para todos os gêneros."
+    "description": "Uma fragrância alegre e irreverente que mistura o doce e o picante, para todos os gêneros.",
+    "altText": "Frasco de colônia compartilhável com design moderno, degradê de cores vibrantes (laranja, amarelo, rosa). Tampa preta. Logo Nativa e nome Anima. Fundo neutro."
   },
   {
     "id": "P034",
@@ -269,7 +302,8 @@
     "name": "Spray Corporal Perfumado",
     "variant": "Anima Mix Cítrico",
     "keyIngredients": ["Limão Siciliano", "Tangerina", "Gengibre"],
-    "description": "Um splash de energia e bom humor com notas cítricas vibrantes para qualquer hora do dia."
+    "description": "Um splash de energia e bom humor com notas cítricas vibrantes para qualquer hora do dia.",
+    "altText": "Frasco spray corporal cilíndrico com rótulo colorido e vibrante, ilustrações de frutas cítricas e gengibre. Tampa preta. Logo Nativa e nome Anima. Fundo amarelo claro."
   },
   {
     "id": "P035",
@@ -277,7 +311,8 @@
     "name": "Óleo Vegetal para Massagem em Bebês",
     "variant": "Ninhar e Florir Toque Suave",
     "keyIngredients": ["Óleo de Amêndoas", "Óleo de Girassol", "Camomila"],
-    "description": "Cuidado e carinho em forma de óleo para massagem, com ingredientes suaves para a pele delicada do bebê."
+    "description": "Cuidado e carinho em forma de óleo para massagem, com ingredientes suaves para a pele delicada do bebê.",
+    "altText": "Frasco de óleo para massagem de bebê, transparente, mostrando óleo amarelo claro. Tampa branca. Rótulo com ilustrações suaves de amêndoas e camomila. Logo Nativa e nome Ninhar e Florir."
   },
   {
     "id": "P036",
@@ -285,7 +320,8 @@
     "name": "Hidratante Preventivo de Estrias para Gestantes",
     "variant": "Ninhar e Florir Elasticidade",
     "keyIngredients": ["Óleo de Rosa Mosqueta", "Manteiga de Cupuaçu", "Vitamina E"],
-    "description": "Hidratação intensiva que auxilia na prevenção de estrias, cuidando da pele da gestante com segurança."
+    "description": "Hidratação intensiva que auxilia na prevenção de estrias, cuidando da pele da gestante com segurança.",
+    "altText": "Tubo de hidratante para gestantes branco com tampa verde escura. Rótulo rosa claro com ilustrações de flores e o nome Ninhar e Florir. Logo Nativa. Textura do creme visível."
   },
   {
     "id": "P037",
@@ -293,7 +329,8 @@
     "name": "Sabonete Líquido Glicerinado da Cabeça aos Pés",
     "variant": "Ninhar e Florir Banho de Afeto",
     "keyIngredients": ["Glicerina Vegetal", "Extrato de Algodão"],
-    "description": "Limpeza extra suave para o cabelo e corpo do bebê, sem lágrimas e com muito carinho."
+    "description": "Limpeza extra suave para o cabelo e corpo do bebê, sem lágrimas e com muito carinho.",
+    "altText": "Frasco de sabonete líquido para bebê, branco, formato anatômico, com pump branco. Rótulo com tons pastel rosa e azul, ilustração de algodão. Logo Nativa e nome Ninhar e Florir."
   },
   {
     "id": "P038",
@@ -301,7 +338,8 @@
     "name": "Sabonete em Barra Puro Vegetal",
     "variant": "Capim Cidreira Relaxante",
     "keyIngredients": ["Extrato de Capim Cidreira", "Manteiga de Karité"],
-    "description": "Limpeza suave com a fragrância calmante do capim cidreira para um banho relaxante."
+    "description": "Limpeza suave com a fragrância calmante do capim cidreira para um banho relaxante.",
+    "altText": "Sabonete em barra de cor clara, embalado em papel com ilustrações de capim cidreira e folhas verdes. Logo Nativa e nome Capim Cidreira. Fundo neutro."
   },
   {
     "id": "P039",
@@ -309,6 +347,7 @@
     "name": "Loção Hidratante Desodorante Corporal",
     "variant": "Capim Cidreira Frescor Suave",
     "keyIngredients": ["Extrato de Capim Cidreira", "Óleo de Passiflora"],
-    "description": "Hidratação leve e refrescante com o toque tranquilizante do capim cidreira para todo o corpo."
+    "description": "Hidratação leve e refrescante com o toque tranquilizante do capim cidreira para todo o corpo.",
+    "altText": "Frasco de loção corporal branco com pump verde escuro. Rótulo com ilustrações de capim cidreira e flores de maracujá. Logo Nativa e nome Capim Cidreira. Fundo claro."
   }
 ]
