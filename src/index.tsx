@@ -4,17 +4,25 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router";
-import App from './App';
+import { MainLayout } from './components'
+import { Home } from './pages';
+import './globals.tsx';
 
 let router = createBrowserRouter(
   [
     {
       path: "/",
-      Component: App
-    },
-    {
-      path: "*",
-      Component: () => <div>404 not found</div>
+      element: <MainLayout />,
+      children: [
+        {
+          index: true,
+          element: <Home />
+        },
+        {
+          path: "*",
+          Component: () => <div>404 not found</div>
+        }
+      ]
     }
   ],
   {

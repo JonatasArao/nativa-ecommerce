@@ -1,12 +1,12 @@
 import React from 'react';
-import { css } from '@linaria/core';
+import { styled } from '@linaria/react';
 import { Product } from '../../models';
 
 interface ProductCardProps {
 	product : Product;
 }
 
-const style = css`
+const Card = styled.div`
   background-color: #FAFAFA;
   width: 15em;
   
@@ -33,7 +33,7 @@ const style = css`
 
 const ProductCard : React.FC<ProductCardProps> = ({ product }) => {
   return (
-	<div className={style}>
+	<Card>
 	  <img src={`img/${product.id}.jpg`} alt={product.altText} loading='lazy' />
 	  <h3>{product.line.name}</h3>
 	  <h4>{product.name}</h4>
@@ -46,7 +46,7 @@ const ProductCard : React.FC<ProductCardProps> = ({ product }) => {
         }
       </p>
 	  </div>
-	</div>
+	</Card>
   );
 };
 
