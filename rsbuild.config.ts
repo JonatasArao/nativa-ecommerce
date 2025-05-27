@@ -5,7 +5,11 @@ import { pluginSvgr } from '@rsbuild/plugin-svgr';
 
 export default defineConfig(
   {
-  plugins: [pluginBabel(), pluginReact(), pluginSvgr()],
+  plugins: [
+    pluginBabel(),
+    pluginReact(),
+    pluginSvgr()
+  ],
   html: {
     title: 'Nativa',
     favicon: './src/static/svg/nativa_logo.svg',

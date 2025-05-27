@@ -4,7 +4,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router";
-import { MainLayout } from './components'
+import { AppLayout } from './components'
 import { Home } from './pages';
 import './globals.tsx';
 
@@ -12,7 +12,7 @@ let router = createBrowserRouter(
   [
     {
       path: "/",
-      element: <MainLayout />,
+      element: <AppLayout />,
       children: [
         {
           index: true,
