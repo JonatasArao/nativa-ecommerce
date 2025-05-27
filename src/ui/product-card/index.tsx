@@ -32,9 +32,11 @@ const Card = styled.div`
 `
 
 const ProductCard : React.FC<ProductCardProps> = ({ product }) => {
+  const imageUrl = `${import.meta.env.BASE_URL}/img/${product.id}.jpg`
+
   return (
 	<Card>
-	  <img src={`img/${product.id}.jpg`} alt={product.altText} loading='lazy' />
+	  <img src={imageUrl} alt={product.altText} loading='lazy' />
 	  <h3>{product.line.name}</h3>
 	  <h4>{product.name}</h4>
 	  <div>
