@@ -26,7 +26,7 @@ let router = createBrowserRouter(
     }
   ],
   {
-    basename: import.meta.env.MODE === "production" ? "/mini-ecommerce" : "/"
+    basename: import.meta.env.BASE_URL
   }
 );
 
