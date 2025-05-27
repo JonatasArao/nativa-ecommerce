@@ -5,7 +5,7 @@ import {
   RouterProvider,
 } from "react-router";
 import { AppLayout } from './components'
-import { Home } from './pages';
+import { Home, NotFound } from './pages';
 import './globals.tsx';
 
 let router = createBrowserRouter(
@@ -20,7 +20,7 @@ let router = createBrowserRouter(
         },
         {
           path: "*",
-          Component: () => <div>404 not found</div>
+          element: <NotFound />
         }
       ]
     }

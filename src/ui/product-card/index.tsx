@@ -8,7 +8,6 @@ interface ProductCardProps {
 
 const Card = styled.div`
   background-color: #FAFAFA;
-  width: 15em;
   
   & img {
     width: 100%;
