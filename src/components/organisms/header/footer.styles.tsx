@@ -12,17 +12,19 @@ export const TopBar = styled.header`
     align-items: center;
     padding: 0.5rem 0;
     gap: 0.5rem;
-  }
   
-  & > form input{
-    width: 60vw;
+    & > form input{
+      width: 60vw;
+    }
   }
 
   @media (min-width: 768px) {
+   div {
     flex-direction: row;
     & > form input{
       width: 15rem;
     }
+   }
   }
 `
 export const logoLink = css`
