@@ -2,15 +2,17 @@ import { css } from '@linaria/core';
 import { styled } from '@linaria/react';
 
 export const TopBar = styled.header`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: #FFF;
   position: sticky;
   top: 0rem;
-  background-color: #FFF;
-  padding: 0.5rem 0;
-  gap: 0.5rem;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    gap: 0.5rem;
+  }
   
   & > form input{
     width: 60vw;

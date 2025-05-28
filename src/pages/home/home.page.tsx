@@ -1,12 +1,14 @@
 import React from 'react';
 import { ProductCard } from '@components/molecules';
 import { LineService, ProductService } from '@services';
+import { Container } from '@components/atoms';
 import { productCardSection } from './home.styles';
 
 const Home: React.FC = () => {
   const lines = LineService.getAll();
   return (
     <section>
+      <Container>
         {lines.map(line => {
           let products = ProductService.getByLine(line.id);
           return (
@@ -20,6 +22,7 @@ const Home: React.FC = () => {
           </div>
         );
         })}
+      </Container>
     </section>
   );
 };
