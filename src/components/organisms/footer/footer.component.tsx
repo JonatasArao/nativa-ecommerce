@@ -1,14 +1,5 @@
 import React from 'react';
-import { styled } from '@linaria/react';
-
-const InfoBar = styled.header`
-  padding: 0.2rem 0;
-  & p {
-    font-size: 0.8rem;
-    color: #424242;
-  }
-  background-color: #FAFAFA;
-`
+import { InfoBar } from './footer.styles'
 
 const Footer : React.FC = () => {
   return (
