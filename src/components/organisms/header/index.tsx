@@ -2,7 +2,7 @@ import React from 'react';
 import { css } from '@linaria/core';
 import { styled } from '@linaria/react';
 import { NavLink } from "react-router";
-import NativaLogo from '../../static/svg/nativa.svg?react';
+import NativaLogo from '@static/svg/nativa.svg?react';
 
 const TopBar = styled.header`
   display: flex;

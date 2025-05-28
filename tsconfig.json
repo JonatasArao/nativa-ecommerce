@@ -18,7 +18,24 @@
     /* type checking */
     "strict": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    
+    /* Alias configurations */
+    "baseUrl": "./",
+    "paths": {
+      "@components": ["./src/components"],
+      "@components/*": ["./src/components/*"],
+      "@models": ["./src/models"],
+      "@models/*": ["./src/models/*"],
+      "@services": ["./src/services"],
+      "@services/*": ["./src/services/*"],
+      "@pages": ["./src/pages"],
+      "@pages/*": ["./src/pages/*"],
+      "@utils": ["./src/utils"],
+      "@utils/*": ["./src/utils/*"],
+      "@static": ["./src/static"],
+      "@static/*": ["./src/static/*"]
+    }
   },
   "include": ["src"]
 }

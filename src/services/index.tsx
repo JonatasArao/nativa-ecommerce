@@ -1,6 +1,6 @@
-import productList from '../static/json/productList.json';
-import lineList from '../static/json/lineList.json';
-import { Line, Product, ProductRaw } from "../models";
+import productList from '@static/json/productList.json';
+import lineList from '@static/json/lineList.json';
+import { Line, Product, ProductRaw } from "@models";
 
 export class LineService {
 	static getAll() : Line[] {

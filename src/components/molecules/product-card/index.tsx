@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from '@linaria/react';
-import { Product } from '../../models';
+import { Product } from '@models';
 
 interface ProductCardProps {
 	product : Product;

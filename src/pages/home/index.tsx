@@ -1,7 +1,7 @@
 import React from 'react';
 import { css } from '@linaria/core';
-import { ProductCard } from '../../ui';
-import { LineService, ProductService } from '../../services';
+import { ProductCard } from '@components/molecules';
+import { LineService, ProductService } from '@services';
 
 const productCardSection = css`
   h2 {

@@ -17,6 +17,16 @@ export default defineConfig(
   server: {
     base: process.env.NODE_ENV === "production" ? "/mini-ecommerce" : ""
   },
+  resolve: {
+    alias: {
+      '@components': './src/components',
+      '@models': './src/models',
+      '@services': './src/services',
+      '@pages': './src/pages',
+      '@utils': './src/utils',
+      '@static': './src/static',
+    },
+  },
   source: {
     preEntry: './src/static/gh-pages-config.js'
   },

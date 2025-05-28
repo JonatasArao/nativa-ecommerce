@@ -4,8 +4,8 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router";
-import { AppLayout } from './components'
-import { Home, NotFound } from './pages';
+import { AppLayout } from '@components/templates'
+import { Home, NotFound } from '@pages';
 import './globals.tsx';
 
 let router = createBrowserRouter(
