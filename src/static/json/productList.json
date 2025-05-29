@@ -24,7 +24,7 @@
     "price": 85.50,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -38,7 +38,7 @@
     "price": 25.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -66,7 +66,7 @@
     "price": 92.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": false
   },
   {
@@ -80,7 +80,7 @@
     "price": 45.90,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -108,7 +108,7 @@
     "price": 32.90,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -122,7 +122,7 @@
     "price": 55.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -150,7 +150,7 @@
     "price": 65.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -164,7 +164,7 @@
     "price": 89.90,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -192,7 +192,7 @@
     "price": 52.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -206,7 +206,7 @@
     "price": 54.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -234,7 +234,7 @@
     "price": 49.90,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -248,7 +248,7 @@
     "price": 42.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -262,7 +262,7 @@
     "price": 44.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": false
   },
   {
@@ -290,7 +290,7 @@
     "price": 48.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -304,7 +304,7 @@
     "price": 58.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -332,7 +332,7 @@
     "price": 39.90,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -360,7 +360,7 @@
     "price": 55.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -374,7 +374,7 @@
     "price": 72.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -402,7 +402,7 @@
     "price": 110.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -416,7 +416,7 @@
     "price": 105.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -444,7 +444,7 @@
     "price": 185.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -458,7 +458,7 @@
     "price": 89.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": false
   },
   {
@@ -486,7 +486,7 @@
     "price": 70.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -514,7 +514,7 @@
     "price": 48.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {
@@ -528,7 +528,7 @@
     "price": 22.00,
     "currency": "BRL",
     "onSale": false,
-    "promotionalPrice": null,
+    "promotionalPrice": 0,
     "isAvailable": true
   },
   {

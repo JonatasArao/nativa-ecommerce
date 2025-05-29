@@ -3,6 +3,8 @@ import { css } from '@linaria/core';
 export const productCardSection = css`
   h2 {
     text-align: center;
+    padding: 1.5rem 0;
+    font-weight: 600;
   }
   & > div {
     display: grid;

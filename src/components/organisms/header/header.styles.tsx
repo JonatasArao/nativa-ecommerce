@@ -5,6 +5,7 @@ export const TopBar = styled.header`
   background-color: #FFF;
   position: sticky;
   top: 0rem;
+  z-index: 1;
   div {
     display: flex;
     flex-direction: column;

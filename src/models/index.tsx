@@ -16,7 +16,7 @@ export interface ProductRaw {
 	price: number;
 	currency: string;
 	onSale: boolean;
-	promotionalPrice: number | null;
+	promotionalPrice: number;
 	isAvailable: boolean;
 }
 
@@ -31,6 +31,6 @@ export interface Product {
 	price: number;
 	currency: string;
 	onSale: boolean;
-	promotionalPrice: number | null;
+	promotionalPrice: number;
 	isAvailable: boolean;
 }

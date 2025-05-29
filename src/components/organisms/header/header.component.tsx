@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from "react-router";
-import { TopBar, logoLink } from './footer.styles'
+import { TopBar, logoLink } from './header.styles'
 import { Container } from '@components/atoms';
 import NativaLogo from '@static/svg/nativa.svg?react';
 
