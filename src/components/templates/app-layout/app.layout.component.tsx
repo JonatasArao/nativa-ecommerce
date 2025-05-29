@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router';
 import { Header, Footer } from '@components/organisms';
-import { Container } from './app.layout.styles';
+import { Container } from './app.layout.styled';
 
 const AppLayout: React.FC = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from '@components/atoms';
-import { InfoBar } from './footer.styles';
+import { InfoBar } from './footer.styled';
 
 const Footer : React.FC = () => {
   return (

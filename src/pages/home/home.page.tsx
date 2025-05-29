@@ -2,7 +2,7 @@ import React from 'react';
 import { LineService, ProductService } from '@services';
 import { Container } from '@components/atoms';
 import { ProductList } from '@components/organisms';
-import { productsSection } from './home.styles';
+import { productsSection } from './home.styled';
 
 const Home: React.FC = () => {
   const lines = LineService.getAll();

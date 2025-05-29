@@ -1,20 +1,22 @@
 import React from 'react';
 import { Product } from '@models';
 import { formatCurrency } from '@utils';
+import {
+  AlertText,
+  BodyText,
+  CaptionText,
+  DetailText,
+  PreviousPrice,
+  SalePrice
+} from '@components/atoms'
 import { 
   Card,
   ProductDetails,
   PriceInfo,
   ImageWrapper,
   ProductImage,
-  LineName,
-  ProductName,
-  ProductVariant,
   ProductInfo,
-  OriginalPrice,
-  SalePrice,
-  UnavailableMessage
-} from './product-card.styles';
+} from './product-card.styled';
 
 interface ProductCardProps {
 	product : Product;
@@ -34,19 +36,19 @@ const ProductCard : React.FC<ProductCardProps> = ({ product }) => {
     </ImageWrapper>
     <ProductDetails>
       <ProductInfo>
-        <LineName>{product.line.name}</LineName>
-        <ProductName>{product.name}</ProductName>
-        <ProductVariant>{product.variant}</ProductVariant>
+        <CaptionText as="h3">{product.line.name}</CaptionText>
+        <BodyText as="h4">{product.name}</BodyText>
+        <DetailText>{product.variant}</DetailText>
       </ProductInfo>
       {product.isAvailable ? (
         <PriceInfo>
           {product.onSale && (
-            <OriginalPrice>{originalPrice}</OriginalPrice>
+            <PreviousPrice>{originalPrice}</PreviousPrice>
           )}
           <SalePrice>{finalPrice}</SalePrice>
         </PriceInfo>
       ) : (
-        <UnavailableMessage>produto esgotado</UnavailableMessage>
+        <AlertText>produto esgotado</AlertText>
       )}
     </ProductDetails>
 	</Card>

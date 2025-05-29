@@ -1,5 +1,5 @@
 import React from 'react';
-import { NotFoundSection } from './not-found.styles';
+import { NotFoundSection } from './not-found.styled';
 
 const NotFound: React.FC = () => {
   return (
