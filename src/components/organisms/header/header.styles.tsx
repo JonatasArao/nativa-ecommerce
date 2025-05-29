@@ -6,12 +6,12 @@ export const TopBar = styled.header`
   position: sticky;
   top: 0rem;
   z-index: 1;
+  padding: 0.75rem 0;
   div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0.5rem 0;
     gap: 0.5rem;
   
     & > form input{
@@ -21,16 +21,20 @@ export const TopBar = styled.header`
 
   @media (min-width: 768px) {
    div {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     & > form input{
-      width: 15rem;
+      width: 80%;
+    }
+    & > form button{
+      width: 20%;
     }
    }
   }
 `
 export const logoLink = css`
   svg {
-    width: 10em;
+    width: 9em;
     height: auto;
     path {
       fill: #000;
