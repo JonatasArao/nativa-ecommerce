@@ -1,8 +1,8 @@
 import React from 'react';
-import { ProductCard } from '@components/molecules';
 import { LineService, ProductService } from '@services';
 import { Container } from '@components/atoms';
-import { productCardSection } from './home.styles';
+import { ProductList } from '@components/organisms';
+import { productsSection } from './home.styles';
 
 const Home: React.FC = () => {
   const lines = LineService.getAll();
@@ -12,13 +12,9 @@ const Home: React.FC = () => {
         {lines.map(line => {
           let products = ProductService.getByLine(line.id);
           return (
-          <div key={line.id} className={productCardSection}>
+          <div key={line.id} className={productsSection}>
             <h2>{line.name}</h2>
-            <div>
-              {products.map(product => (
-                <ProductCard key={product.id} product={product} />
-              ))}
-            </div>
+            <ProductList products={products}/>
           </div>
         );
         })}
