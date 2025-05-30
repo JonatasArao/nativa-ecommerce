@@ -5,7 +5,7 @@ export const SearchBar = styled.form`
   border: #F5F5F5 solid 1px;
   border-radius: 2em;
   padding: 0 0.5rem;
-  width: 100%;
+  width: 23rem;
   &:hover,
   &:focus-within {
     border: #000 solid 1px;
