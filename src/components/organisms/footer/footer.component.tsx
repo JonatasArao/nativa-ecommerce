@@ -1,14 +1,18 @@
 import React from 'react';
-import { Container } from '@components/atoms';
-import { InfoBar } from './footer.styled';
+import { Container, MutedText } from '@components/atoms';
+import { FooterRoot, InfoBar } from './footer.styled';
+import NativaColor from '@static/svg/nativa_color.svg?react'
 
 const Footer : React.FC = () => {
   return (
-    <InfoBar>
-      <Container>
-        <p>&copy; Nativa. Todos os direitos reservados.</p>
-      </Container>
-    </InfoBar>
+    <FooterRoot>
+      <NativaColor />
+      <InfoBar>
+        <Container>
+          <MutedText as="p">&copy; Nativa. Todos os direitos reservados.</MutedText>
+        </Container>
+      </InfoBar>
+    </FooterRoot>
   );
 };
 

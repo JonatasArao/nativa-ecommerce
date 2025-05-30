@@ -1,17 +1,17 @@
 import React from 'react';
 import { Outlet } from 'react-router';
 import { Header, Footer } from '@components/organisms';
-import { Container } from './app.layout.styled';
+import { LayoutRoot, MainContent } from './app.layout.styled';
 
 const AppLayout: React.FC = () => {
   return (
-    <Container>
+    <LayoutRoot>
       <Header />
-      <main> 
+      <MainContent> 
         <Outlet />
-      </main>
+      </MainContent>
       <Footer />
-    </Container>
+    </LayoutRoot>
   );
 };
 
