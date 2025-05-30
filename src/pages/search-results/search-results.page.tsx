@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSearchParams } from 'react-router';
 import { ProductService } from '@services';
-import { BodyText, Container, TitleText } from '@components/atoms';
+import { BodyText, Container, TitleText, textAlignCenter } from '@components/atoms';
 import { ProductList } from '@components/organisms';
 
 const SearchResults: React.FC = () => {
@@ -17,12 +17,12 @@ const SearchResults: React.FC = () => {
         products.length > 0 ? (
           <ProductList products={products} />
         ) : (
-          <BodyText textAlign="center">
+          <BodyText className={textAlignCenter}>
             Nenhum resultado encontrado para "{query}". Tente buscar por outros termos.
           </BodyText>
         )
       ) : (
-        <BodyText textAlign="center">
+        <BodyText className={textAlignCenter}>
           Por favor, digite um termo no campo de busca.
         </BodyText>
       )}
