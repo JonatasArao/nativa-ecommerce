@@ -50,4 +50,19 @@ export class ProductService {
 			line
 		}
 	}
+
+	static searchQuery(query : string) : Product[] {
+		return (productList as ProductRaw[])
+		.filter(p => p.name.toLowerCase().includes(query.toLowerCase()))	
+		.map((product) => {
+			const line = LineService.getById(product.lineId);
+			if (!line) {
+				throw new Error(`Line with id ${product.lineId} not found`);
+			}
+			return {
+				...product,
+				line
+			};
+		});
+	}
 }
