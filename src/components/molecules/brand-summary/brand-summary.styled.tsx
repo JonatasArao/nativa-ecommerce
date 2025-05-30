@@ -22,5 +22,6 @@ export const AboutSection = styled.section`
   & ${BodyText} {
     max-width: 45rem;
     line-height: 2rem;
+    text-align: justify;
   }
 `
