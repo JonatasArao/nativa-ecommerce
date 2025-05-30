@@ -1,6 +1,6 @@
 import { styled } from '@linaria/react';
 
-export const Card = styled.div`
+export const ProductCardBox = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;

@@ -10,7 +10,7 @@ import {
   SalePrice
 } from '@components/atoms'
 import { 
-  Card,
+  ProductCardBox,
   ProductDetails,
   PriceInfo,
   ImageWrapper,
@@ -30,7 +30,7 @@ const ProductCard : React.FC<ProductCardProps> = ({ product }) => {
                       promoPrice :
                       originalPrice;
   return (
-	<Card>
+	<ProductCardBox>
     <ImageWrapper>
 	    <ProductImage src={imageUrl} alt={product.altText} loading='lazy' />
     </ImageWrapper>
@@ -51,7 +51,7 @@ const ProductCard : React.FC<ProductCardProps> = ({ product }) => {
         <AlertText>produto esgotado</AlertText>
       )}
     </ProductDetails>
-	</Card>
+	</ProductCardBox>
   );
 };
 
