@@ -6,7 +6,6 @@ export const globals = css`
     
     body {
       margin: 0;
-      font-family: "Roboto Flex", sans-serif;
     }
     html {
       box-sizing: border-box;
@@ -20,6 +19,7 @@ export const globals = css`
     *:before,
     *:after {
       box-sizing: border-box;
+      font-family: "Roboto Flex", sans-serif;
     }
 
     .sr-only {
