@@ -9,3 +9,5 @@ export { default as MutedText } from './typography/muted-text.styled';
 export { default as PreviousPrice } from './typography/previous-price.styled';
 export { default as SalePrice } from './typography/sale-price.styled';
 export { default as textAlign } from  './typography/text-align.styled';
+
+export { default as Badge } from './elements/badge';
