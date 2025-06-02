@@ -5,7 +5,7 @@ import {
   RouterProvider,
 } from "react-router";
 import { AppLayout } from '@components/templates'
-import { Home, NotFound, SearchResults } from '@pages';
+import { Home, NotFound, Search } from '@pages';
 import './globals.tsx';
 
 let router = createBrowserRouter(
@@ -20,7 +20,7 @@ let router = createBrowserRouter(
         },
         {
           path: "/search",
-          element: <SearchResults />
+          element: <Search />
         },
         {
           path: "*",

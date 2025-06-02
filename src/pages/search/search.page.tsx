@@ -4,7 +4,7 @@ import { ProductService } from '@services';
 import { BodyText, Container, TitleText, textAlign } from '@components/atoms';
 import { ProductList } from '@components/organisms';
 
-const SearchResults: React.FC = () => {
+const Search: React.FC = () => {
   const [searchParams] = useSearchParams();
   const query = searchParams.get('busca');
   const products = query ? ProductService.searchQuery(query) : [];
@@ -30,4 +30,4 @@ const SearchResults: React.FC = () => {
   );
 };
 
-export default SearchResults;
+export default Search;
