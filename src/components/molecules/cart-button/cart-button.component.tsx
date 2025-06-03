@@ -9,8 +9,7 @@ interface CartButtonProps {
 export const CartButton : React.FC<CartButtonProps> = ({ productId }) => {const { addToCart } = useCart(); // Use o hook para pegar a função
 
   const addCart = () => {
-    addToCart();
-    console.log(`Produto Adicionado: ${productId}`)
+    addToCart(productId);
   };
   return (
     <Button onClick={addCart}>adicionar à sacola</Button>
