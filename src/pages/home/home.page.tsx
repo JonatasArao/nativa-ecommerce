@@ -4,7 +4,7 @@ import { Container, TitleText } from '@components/atoms';
 import { BrandSummary } from '@components/molecules';
 import { ProductList } from '@components/organisms';
 
-const Home: React.FC = () => {
+const HomePage: React.FC = () => {
   const lines = LineService.getAll();
   return (
     <>
@@ -24,4 +24,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default HomePage;

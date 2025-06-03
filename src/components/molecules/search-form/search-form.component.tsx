@@ -14,7 +14,7 @@ const SearchForm: React.FC = () => {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (query.trim()) {
-      navigate(`/search?busca=${encodeURIComponent(query.trim())}`);
+      navigate(`/search?query=${encodeURIComponent(query.trim())}`);
       setQuery('');
     }
   };

@@ -1,15 +1,16 @@
 import React from "react";
 import { Button } from '@components/atoms'
 import { useCart } from '@contexts/cart.context';
+import { Product } from "@models";
 
 interface CartButtonProps {
-  productId : string;
+  product : Product;
 }
 
-export const CartButton : React.FC<CartButtonProps> = ({ productId }) => {const { addToCart } = useCart(); // Use o hook para pegar a função
+export const CartButton : React.FC<CartButtonProps> = ({ product }) => {const { addToCart } = useCart(); // Use o hook para pegar a função
 
   const addCart = () => {
-    addToCart(productId);
+    addToCart(product);
   };
   return (
     <Button onClick={addCart}>adicionar à sacola</Button>

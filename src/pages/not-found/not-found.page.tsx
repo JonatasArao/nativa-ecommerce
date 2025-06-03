@@ -1,12 +1,12 @@
 import React from 'react';
 import { NotFoundSection } from './not-found.styled';
 
-const NotFound: React.FC = () => {
+const NotFoundPage: React.FC = () => {
   return (
     <NotFoundSection>
-      <h2>404</h2>
+      <h1>404</h1>
     </NotFoundSection>
   );
 };
 
-export default NotFound;
+export default NotFoundPage;

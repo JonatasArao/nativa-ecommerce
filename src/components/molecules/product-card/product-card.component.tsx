@@ -57,7 +57,7 @@ const ProductCard : React.FC<ProductCardProps> = ({ product }) => {
     </ProductDetails>
     {product.isAvailable ? (
       <CartButton 
-        productId={product.id}
+        product={product}
       />
     ) : (
       <Button>me avise</Button>

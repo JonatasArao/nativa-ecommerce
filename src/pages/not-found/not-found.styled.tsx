@@ -6,7 +6,7 @@ export const NotFoundSection = styled.section`
   align-items: center;
   width: 100%;
   height: 100%;
-  h2 {
+  h1 {
     font-size: 10rem;
   }
 `

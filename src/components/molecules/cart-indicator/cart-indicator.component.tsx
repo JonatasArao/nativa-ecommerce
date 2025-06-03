@@ -10,7 +10,7 @@ export const CartIndicator : React.FC = () => {
   const { cartItemCount } = useCart();
   return (
     <CartIcon>
-      <NavLink to="/">
+      <NavLink to="/cart">
         <FontAwesomeIcon icon={faBagShopping} />
         {cartItemCount > 0 && <Badge>{cartItemCount}</Badge>}
       </NavLink>

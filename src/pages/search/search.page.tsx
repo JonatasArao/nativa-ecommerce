@@ -4,9 +4,9 @@ import { ProductService } from '@services';
 import { BodyText, Container, TitleText, textAlign } from '@components/atoms';
 import { ProductList } from '@components/organisms';
 
-const Search: React.FC = () => {
+const SearchPage: React.FC = () => {
   const [searchParams] = useSearchParams();
-  const query = searchParams.get('busca');
+  const query = searchParams.get('query');
   const products = query ? ProductService.searchQuery(query) : [];
   return (
     <Container as="section">
@@ -30,4 +30,4 @@ const Search: React.FC = () => {
   );
 };
 
-export default Search;
+export default SearchPage;

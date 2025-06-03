@@ -5,8 +5,9 @@ import {
   RouterProvider,
 } from "react-router";
 import { AppLayout } from '@components/templates'
-import { Home, NotFound, Search } from '@pages';
+import { HomePage, NotFoundPage, SearchPage } from '@pages';
 import './globals.tsx';
+import CartPage from '@pages/cart/cart.page.tsx';
 
 let router = createBrowserRouter(
   [
@@ -16,15 +17,19 @@ let router = createBrowserRouter(
       children: [
         {
           index: true,
-          element: <Home />
+          element: <HomePage />
         },
         {
           path: "/search",
-          element: <Search />
+          element: <SearchPage />
+        },
+        {
+          path: "/cart",
+          element: <CartPage />
         },
         {
           path: "*",
-          element: <NotFound />
+          element: <NotFoundPage />
         }
       ]
     }
