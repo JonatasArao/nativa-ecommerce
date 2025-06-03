@@ -4,18 +4,20 @@ import { formatCurrency } from '@utils';
 import {
   AlertText,
   BodyText,
+  Button,
   CaptionText,
   DetailText,
   PreviousPrice,
   SalePrice
-} from '@components/atoms'
+} from '@components/atoms';
+import { CartButton } from '@components/molecules';
 import { 
   ProductCardBox,
   ProductDetails,
   PriceInfo,
   ImageWrapper,
   ProductImage,
-  ProductInfo,
+  ProductInfo
 } from './product-card.styled';
 
 interface ProductCardProps {
@@ -24,11 +26,9 @@ interface ProductCardProps {
 
 const ProductCard : React.FC<ProductCardProps> = ({ product }) => {
   const imageUrl = `${import.meta.env.BASE_URL}/img/${product.id}.jpg`
-  const originalPrice = formatCurrency(product.price, product.currency);
-  const promoPrice = formatCurrency(product.promotionalPrice, product.currency)
-  const finalPrice = product.onSale ?
-                      promoPrice :
-                      originalPrice;
+  const currentPrice = product.onSale ?
+                        product.promotionalPrice :
+                        product.price;
   return (
 	<ProductCardBox>
     <ImageWrapper>
@@ -43,14 +43,25 @@ const ProductCard : React.FC<ProductCardProps> = ({ product }) => {
       {product.isAvailable ? (
         <PriceInfo>
           {product.onSale && (
-            <PreviousPrice>{originalPrice}</PreviousPrice>
+            <PreviousPrice>
+              {formatCurrency(product.price, product.currency)}
+            </PreviousPrice>
           )}
-          <SalePrice>{finalPrice}</SalePrice>
+          <SalePrice>
+            {formatCurrency(currentPrice, product.currency)}
+          </SalePrice>
         </PriceInfo>
       ) : (
         <AlertText>produto esgotado</AlertText>
       )}
     </ProductDetails>
+    {product.isAvailable ? (
+      <CartButton 
+        productId={product.id}
+      />
+    ) : (
+      <Button>me avise</Button>
+    )}
 	</ProductCardBox>
   );
 };
