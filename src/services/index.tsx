@@ -64,7 +64,6 @@ export class ProductService {
           line.concept,
           line.description
         ].join(' ');
-        console.log(searchableLineText);
         return normalizeString(searchableLineText).includes(normalizedQuery);
       })
       .map(line => line.id)
@@ -77,9 +76,9 @@ export class ProductService {
         const searchableProductText = [
             product.name,
             product.variant,
-            product.description
+            product.description,
+            product.keyIngredients.join(' ')
         ].join(' ');
-        console.log(searchableProductText);
         return normalizeString(searchableProductText).includes(normalizedQuery);
     });
     return filteredRawProducts
