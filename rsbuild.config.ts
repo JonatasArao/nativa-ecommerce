@@ -22,6 +22,7 @@ export default defineConfig(
       '@components': './src/components',
       '@models': './src/models',
       '@services': './src/services',
+      '@contexts': './src/contexts',
       '@pages': './src/pages',
       '@utils': './src/utils',
       '@static': './src/static',

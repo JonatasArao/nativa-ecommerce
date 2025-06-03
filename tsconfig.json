@@ -29,6 +29,8 @@
       "@models/*": ["./src/models/*"],
       "@services": ["./src/services"],
       "@services/*": ["./src/services/*"],
+      "@contexts": ["./src/contexts"],
+      "@contexts/*": ["./src/contexts/*"],
       "@pages": ["./src/pages"],
       "@pages/*": ["./src/pages/*"],
       "@utils": ["./src/utils"],
