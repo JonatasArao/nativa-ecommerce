@@ -7,7 +7,8 @@ interface CartButtonProps {
   product : Product;
 }
 
-export const CartButton : React.FC<CartButtonProps> = ({ product }) => {const { addToCart } = useCart(); // Use o hook para pegar a função
+export const CartButton : React.FC<CartButtonProps> = ({ product }) => {
+  const { addToCart } = useCart();
 
   const addCart = () => {
     addToCart(product);

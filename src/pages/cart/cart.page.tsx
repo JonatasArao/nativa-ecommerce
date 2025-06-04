@@ -18,7 +18,7 @@ const CartPage: React.FC = () => {
                               item.product.promotionalPrice :
                               item.product.price;
         return (
-          <div>
+          <div key={item.product.id}>
             <BodyText>{item.product.name}</BodyText>
             <button onClick={() => updateItemQuantity(item.product.id, item.quantity - 1)}>Remover</button>
             <DetailText>{item.quantity}</DetailText>

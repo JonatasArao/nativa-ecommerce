@@ -37,9 +37,3 @@ export const ProductImage = styled.img`
     transform: scale(1.1);
   }
 `
-
-export const PriceInfo = styled.div`
-  display: flex;
-  flex-direction: column;
-  padding: 0.5rem 0;
-`

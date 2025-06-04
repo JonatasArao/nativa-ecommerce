@@ -17,6 +17,7 @@ export const CartIcon = styled.div`
     color: #000;
   }
   ${Badge} {
+    position: absolute;
     right: 0.1rem;
     bottom: -0.5rem;
   }

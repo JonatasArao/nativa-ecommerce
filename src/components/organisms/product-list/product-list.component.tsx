@@ -1,6 +1,6 @@
 import React from 'react';
 import { Product } from '@models';
-import { ProductCard } from '@components/molecules';
+import { ProductCard } from '@components/organisms';
 import { ProductListWrapper } from './product-list.styled'
 
 interface ProductListProps {
