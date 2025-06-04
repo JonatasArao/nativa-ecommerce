@@ -6,7 +6,7 @@ import NativaColor from '@static/svg/nativa_color.svg?react'
 const Footer : React.FC = () => {
   return (
     <FooterRoot>
-      <NativaColor />
+      <NativaColor role='img' aria-label='Logo da Nativa' />
       <InfoBar>
         <Container>
           <MutedText as="p">&copy; Nativa. Todos os direitos reservados.</MutedText>

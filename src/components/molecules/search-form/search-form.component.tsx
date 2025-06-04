@@ -21,6 +21,9 @@ const SearchForm: React.FC = () => {
 
   return (
     <SearchBar onSubmit={handleSubmit}>
+      <label htmlFor="search-input" className="sr-only">
+        O que está procurando hoje?
+      </label>
       <input
         name="query"
         type="text"

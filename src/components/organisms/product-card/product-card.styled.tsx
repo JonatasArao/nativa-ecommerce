@@ -1,9 +1,18 @@
 import { styled } from '@linaria/react';
+import { NavLinkProps } from 'react-router';
 
 export const ProductCardBox = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+`
+
+export const ProductLink = styled.a<NavLinkProps>`
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #000;
 `
 
 export const ProductDetails = styled.div`

@@ -1,6 +1,7 @@
 import { css } from '@linaria/core';
 import { styled } from '@linaria/react';
 import { Container } from '@components/atoms';
+import { NavLinkProps } from 'react-router';
 
 export const BrandArea = styled.div`
   grid-area: brand;
@@ -54,7 +55,7 @@ export const TopBar = styled.header`
   }
 `;
 
-export const logoLink = css`
+export const LogoLink = styled.a<NavLinkProps>`
   svg {
     width: 9rem;
     height: auto;

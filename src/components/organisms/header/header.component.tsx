@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink, useLocation } from "react-router";
-import { TopBar, logoLink, BrandArea, SearchArea, CartArea } from './header.styled';
+import { TopBar, LogoLink, BrandArea, SearchArea, CartArea } from './header.styled';
 import { Container } from '@components/atoms';
 import { SearchForm, CartIndicator } from '@components/molecules';
 import NativaLogo from '@static/svg/nativa.svg?react';
@@ -13,10 +13,10 @@ const Header : React.FC = () => {
     <TopBar>
       <Container>
         <BrandArea>
-          <NavLink to="/" className={logoLink}>
-            <NativaLogo />
+          <LogoLink as={NavLink} to="/">
+            <NativaLogo role='img' aria-label='Logo da Nativa'/>
             <HeadingTag className='sr-only'>Nativa</HeadingTag>
-          </NavLink>
+          </LogoLink>
         </BrandArea>
         <SearchArea>
           <SearchForm />

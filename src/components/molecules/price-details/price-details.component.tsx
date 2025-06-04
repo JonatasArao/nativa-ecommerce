@@ -1,5 +1,5 @@
 import React from "react";
-import { CurrentPriceLine, PriceContainer } from "./price-details.styled";
+import { CurrentPriceLine, PriceContainer } from "./price-details.styled"; // Certifique-se dos nomes corretos dos styled components
 import { PreviousPrice, SalePrice, Badge } from "@components/atoms";
 import { formatCurrency } from "@utils";
 import { Product } from "@models";
@@ -9,28 +9,38 @@ interface PriceDetailsProps {
 }
 
 export const PriceDetails: React.FC<PriceDetailsProps> = ({ product }) => {
-  const { onSale, promotionalPrice, price, currency } = product;
-  const currentPrice = onSale ? promotionalPrice : price;
-  let discount = "0"
+  const { onSale, promotionalPrice, price, currency } = product; 
+  const formattedRegularPrice = formatCurrency(price, currency);
+  const formattedPromotionalPrice = formatCurrency(promotionalPrice, currency);
+  const currentDisplayedPrice = onSale ? formattedPromotionalPrice : formattedRegularPrice;
+
+  let discountPercentageText = "0%";
   if (onSale && price > 0) {
-    const discountPercentageValue = ((price - promotionalPrice) / price) * 100;
-    discount = Math.round(discountPercentageValue).toFixed(0);
+    const discountValue = ((price - promotionalPrice) / price) * 100;
+    discountPercentageText = `${Math.round(discountValue).toFixed(0)}%`;
+  }
+
+  let accessibleLabel = '';
+  if (onSale) {
+    accessibleLabel = `De ${formattedRegularPrice}, agora disponível por ${currentDisplayedPrice}, com ${discountPercentageText} de desconto.`;
+  } else {
+    accessibleLabel = `Disponível por ${currentDisplayedPrice}.`;
   }
 
   return (
-    <PriceContainer>
+    <PriceContainer aria-label={accessibleLabel}>
       {onSale && (
-        <PreviousPrice>
-          {formatCurrency(price, currency)}
+        <PreviousPrice aria-hidden="true">
+          {formattedRegularPrice}
         </PreviousPrice>
       )}
-      <CurrentPriceLine>
+      <CurrentPriceLine aria-hidden="true">
         <SalePrice>
-          {formatCurrency(currentPrice, currency)}
+          {currentDisplayedPrice}
         </SalePrice>
         {onSale && (
           <Badge>
-            {discount}%
+            {discountPercentageText}
           </Badge>
         )}
       </CurrentPriceLine>

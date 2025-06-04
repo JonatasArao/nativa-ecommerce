@@ -8,11 +8,15 @@ import { useCart } from '@contexts/cart.context';
 
 export const CartIndicator : React.FC = () => {
   const { cartItemCount } = useCart();
+  const cartLabel = cartItemCount > 0
+    ? `Minha sacola, ${cartItemCount} itens`
+    : "Minha sacola, nenhum item";
+  
   return (
     <CartIcon>
-      <NavLink to="/cart">
-        <FontAwesomeIcon icon={faBagShopping} />
-        {cartItemCount > 0 && <Badge>{cartItemCount}</Badge>}
+      <NavLink to="/cart" aria-label={cartLabel}>
+        <FontAwesomeIcon icon={faBagShopping} aria-hidden="true" />
+        {cartItemCount > 0 && <Badge aria-hidden="true">{cartItemCount}</Badge>}
       </NavLink>
     </CartIcon>
   );

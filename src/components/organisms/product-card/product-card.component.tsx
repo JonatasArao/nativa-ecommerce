@@ -13,33 +13,41 @@ import {
   ProductDetails,
   ImageWrapper,
   ProductImage,
-  ProductInfo
+  ProductInfo,
+  ProductLink
 } from './product-card.styled';
+import { NavLink } from 'react-router';
 
 interface ProductCardProps {
 	product : Product;
 }
 
 const ProductCard : React.FC<ProductCardProps> = ({ product }) => {
-  const imageUrl = `${import.meta.env.BASE_URL}/img/${product.id}.jpg`
+  const { id, name, altText, line, variant, isAvailable } = product;
+  const imageUrl = `${import.meta.env.BASE_URL}/img/${id}.jpg`
+  const productLabel = `${name} com ${variant}, da linha ${line.name}.`
   return (
 	<ProductCardBox>
-    <ImageWrapper>
-	    <ProductImage src={imageUrl} alt={product.altText} loading='lazy' />
-    </ImageWrapper>
-    <ProductDetails>
-      <ProductInfo>
-        <CaptionText as="h3">{product.line.name}</CaptionText>
-        <BodyText as="h4">{product.name}</BodyText>
-        <DetailText>{product.variant}</DetailText>
-      </ProductInfo>
-      {product.isAvailable ? (
-        <PriceDetails product={product} />
-      ) : (
-        <AlertText>produto esgotado</AlertText>
-      )}
-    </ProductDetails>
-    {product.isAvailable ? (
+    <ProductLink as={NavLink} to="/">
+      <ImageWrapper>
+        <ProductImage src={imageUrl} alt={altText} loading='lazy' />
+      </ImageWrapper>
+      <ProductDetails>
+        <ProductInfo aria-label={productLabel}>
+          <CaptionText as="h3" aria-hidden="true">
+            {line.name}
+          </CaptionText>
+          <BodyText as="h4" aria-hidden="true">{name}</BodyText>
+          <DetailText aria-hidden="true">{variant}</DetailText>
+        </ProductInfo>
+        {isAvailable ? (
+          <PriceDetails product={product} />
+        ) : (
+          <AlertText>produto esgotado</AlertText>
+        )}
+      </ProductDetails>
+    </ProductLink>
+    {isAvailable ? (
       <CartButton product={product} />
     ) : (
       <Button>me avise</Button>
