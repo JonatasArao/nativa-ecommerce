@@ -4,6 +4,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router";
+import { HelmetProvider } from 'react-helmet-async';
 import { AppLayout } from '@components/templates'
 import { HomePage, NotFoundPage, SearchPage } from '@pages';
 import './globals.tsx';
@@ -44,7 +45,9 @@ if (rootEl) {
   const root = ReactDOM.createRoot(rootEl);
   root.render(
     <React.StrictMode>
-      <RouterProvider router={router} />
+      <HelmetProvider>
+        <RouterProvider router={router} />
+      </HelmetProvider>
     </React.StrictMode>,
   );
 }
