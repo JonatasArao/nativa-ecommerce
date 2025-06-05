@@ -8,7 +8,7 @@ import {
   DetailText
 } from '@components/atoms';
 import { CartButton, PriceDetails } from '@components/molecules';
-import { 
+import {
   ProductCardBox,
   ProductDetails,
   ImageWrapper,
@@ -20,18 +20,20 @@ import { NavLink } from 'react-router';
 
 interface ProductCardProps {
 	product : Product;
+  posInSet?: number;
+  setSize?: number;
 }
 
-const ProductCard : React.FC<ProductCardProps> = ({ product }) => {
+const ProductCard : React.FC<ProductCardProps> = ({ product, posInSet, setSize }) => {
   const { id, name, altText, line, variant, isAvailable } = product;
   const imageUrl = `${import.meta.env.BASE_URL}/img/${id}.jpg`
-  const productLabel = `${name} com ${variant}, da linha ${line.name}.`
+  let productLabel = `${name}, ${variant}, da linha ${line.name}.`
+  if (posInSet !== undefined && setSize !== undefined) {
+    productLabel = `${posInSet} de ${setSize} opções. ${productLabel}`
+  }
   return (
 	<ProductCardBox>
     <ProductLink as={NavLink} to="/">
-      <ImageWrapper>
-        <ProductImage src={imageUrl} alt={altText} loading='lazy' />
-      </ImageWrapper>
       <ProductDetails>
         <ProductInfo aria-label={productLabel}>
           <CaptionText as="h3" aria-hidden="true">
@@ -46,11 +48,15 @@ const ProductCard : React.FC<ProductCardProps> = ({ product }) => {
           <AlertText>produto esgotado</AlertText>
         )}
       </ProductDetails>
+      <ImageWrapper>
+        <span className="sr-only">Descrição da Embalagem: </span>
+        <ProductImage src={imageUrl} alt={altText} loading='lazy' />
+      </ImageWrapper>
     </ProductLink>
     {isAvailable ? (
       <CartButton product={product} />
     ) : (
-      <Button>me avise</Button>
+      <Button aria-label={`me avise quando ${name} estiver disponível`}>me avise</Button>
     )}
 	</ProductCardBox>
   );

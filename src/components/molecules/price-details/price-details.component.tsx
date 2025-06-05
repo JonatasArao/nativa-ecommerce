@@ -20,15 +20,15 @@ export const PriceDetails: React.FC<PriceDetailsProps> = ({ product }) => {
     discountPercentageText = `${Math.round(discountValue).toFixed(0)}%`;
   }
 
-  let accessibleLabel = '';
+  let priceLabel = '';
   if (onSale) {
-    accessibleLabel = `De ${formattedRegularPrice}, agora disponível por ${currentDisplayedPrice}, com ${discountPercentageText} de desconto.`;
+    priceLabel = `De ${formattedRegularPrice}, agora disponível por ${currentDisplayedPrice}, com ${discountPercentageText} de desconto.`;
   } else {
-    accessibleLabel = `Disponível por ${currentDisplayedPrice}.`;
+    priceLabel = `Disponível por ${currentDisplayedPrice}.`;
   }
 
   return (
-    <PriceContainer aria-label={accessibleLabel}>
+    <PriceContainer aria-label={priceLabel}>
       {onSale && (
         <PreviousPrice aria-hidden="true">
           {formattedRegularPrice}

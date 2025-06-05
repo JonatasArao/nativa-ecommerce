@@ -11,12 +11,15 @@ const HomePage: React.FC = () => {
       <Container as="section">
         {lines.map(line => {
           let products = ProductService.getByLine(line.id);
+          const titleId = `line-title-${line.id}`;
           return (
-          <div key={line.id}>
-            <TitleText>{line.name}</TitleText>
-            <ProductList products={products}/>
-          </div>
-        );
+            <div key={line.id}>
+              <TitleText id={titleId}>
+                <span className="sr-only"> Linha</span> {line.name}
+              </TitleText>
+              <ProductList products={products} labelledBy={titleId} />
+            </div>
+          );
         })}
       </Container>
       <BrandSummary />

@@ -5,12 +5,13 @@ export const ProductCardBox = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: 100%;
 `
 
 export const ProductLink = styled.a<NavLinkProps>`
   height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   text-decoration: none;
   color: #000;
 `
