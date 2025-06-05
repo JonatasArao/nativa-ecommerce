@@ -17,6 +17,8 @@ const ProductList: React.FC<ProductListProps> = ({ products, labelledBy }) => {
       {products.map((product, index) => (
         <li
           key={product.id}
+          aria-posinset={index + 1}
+          aria-setsize={totalProducts}
         >
           <ProductCard 
             product={product} 
