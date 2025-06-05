@@ -14,7 +14,7 @@ const Header : React.FC = () => {
       <Container>
         <BrandArea>
           <LogoLink as={NavLink} to="/">
-            <NativaLogo role='img' aria-label='Logo da Nativa'/>
+            <NativaLogo role='img' aria-label='Logo Nativa monocromático: ícone de folhagem e nome da marca NATIVA em preto.'/>
             <HeadingTag className='sr-only'>Nativa</HeadingTag>
           </LogoLink>
         </BrandArea>

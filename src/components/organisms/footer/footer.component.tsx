@@ -6,7 +6,7 @@ import NativaColor from '@static/svg/nativa_color.svg?react'
 const Footer : React.FC = () => {
   return (
     <FooterRoot>
-      <NativaColor role='img' aria-label='Logo da Nativa' />
+      <NativaColor role='img' aria-label='Logomarca Nativa: símbolo de três folhas verdes estilizadas ao lado da palavra NATIVA em verde escuro.' />
       <InfoBar>
         <Container>
           <MutedText as="p">&copy; Nativa. Todos os direitos reservados.</MutedText>
