@@ -7,12 +7,7 @@ import React, {
   useCallback,
   ReactNode
 } from 'react';
-import { Product } from '@models';
-
-interface CartItem {
-  product : Product;
-  quantity: number;
-}
+import { Product, CartItem } from '@models';
 
 interface CartContextType {
   cartItems : CartItem[];
@@ -30,6 +25,7 @@ export const CartProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     const savedCart = localStorage.getItem('cart');
     return savedCart ? JSON.parse(savedCart) : [];
   });
+  const maxQuantity = 10;
 
   useEffect(() => {
     localStorage.setItem('cart', JSON.stringify(cartItems));
@@ -38,7 +34,9 @@ export const CartProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   const addToCart = useCallback((product : Product) => {
     setCartItems(prevItems => {
       const existingItem = prevItems.find(item => item.product.id === product.id);
-      if (existingItem) {
+      if (existingItem && existingItem.quantity >= maxQuantity) {
+        return prevItems;
+      } else if (existingItem) {
         return prevItems.map(item =>
           item.product.id === product.id
             ? { ...item, quantity: item.quantity + 1 }
@@ -48,7 +46,7 @@ export const CartProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         return [...prevItems, { product, quantity: 1 }];
       }
     });
-  }, []);
+  }, [maxQuantity]);
 
   const removeFromCart = useCallback((productId: string) => {
     setCartItems(prevItems => prevItems.filter(item => item.product.id !== productId));
@@ -57,7 +55,7 @@ export const CartProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   const updateItemQuantity = useCallback((productId: string, quantity: number) => {
     if (quantity <= 0) {
       removeFromCart(productId);
-    } else {
+    } else if (quantity <= maxQuantity) {
       setCartItems(prevItems =>
         prevItems.map(item =>
           item.product.id === productId ? { ...item, quantity } : item

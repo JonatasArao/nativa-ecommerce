@@ -1,14 +1,14 @@
 import React from 'react';
-import { BodyText, Container, DetailText, PreviousPrice, SalePrice, TitleText } from '@components/atoms';
+import { BodyText, Container, PreviousPrice, SalePrice, TitleText } from '@components/atoms';
 import { useCart } from '@contexts/cart.context';
 import { formatCurrency } from '@utils';
 import { Helmet } from 'react-helmet-async';
+import { QuantitySelector } from '@components/molecules';
 
 const CartPage: React.FC = () => {
   const { 
     cartItems,
     cartItemCount,
-    updateItemQuantity,
     clearCart
   } = useCart();
   return (
@@ -27,9 +27,7 @@ const CartPage: React.FC = () => {
           return (
             <div key={item.product.id}>
               <BodyText>{item.product.name}</BodyText>
-              <button onClick={() => updateItemQuantity(item.product.id, item.quantity - 1)}>Remover</button>
-              <DetailText>{item.quantity}</DetailText>
-              <button onClick={() => updateItemQuantity(item.product.id, item.quantity + 1)}>Adicionar</button>
+              <QuantitySelector cartItem={item} />
               <div>
                 {item.product.onSale && (
                 <PreviousPrice>

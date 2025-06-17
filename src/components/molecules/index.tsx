@@ -3,3 +3,4 @@ export { default as BrandSummary } from "./brand-summary/brand-summary.component
 export { default as SearchForm } from "./search-form/search-form.component"
 export { default as CartIndicator } from "./cart-indicator/cart-indicator.component"
 export { default as CartButton } from "./cart-button/cart-button.component"
+export { default as QuantitySelector } from "./quantity-selector/quantity-selector.component"
