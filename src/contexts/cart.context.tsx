@@ -12,6 +12,7 @@ import { Product, CartItem } from '@models';
 interface CartContextType {
   cartItems : CartItem[];
   cartItemCount: number;
+  maxQuantity: number;
   addToCart: (product : Product) => void;
   removeFromCart: (productId: string) => void;
   updateItemQuantity: (productId: string, quantity: number) => void;
@@ -53,9 +54,7 @@ export const CartProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   }, []);
 
   const updateItemQuantity = useCallback((productId: string, quantity: number) => {
-    if (quantity <= 0) {
-      removeFromCart(productId);
-    } else if (quantity <= maxQuantity) {
+    if (quantity > 0 && quantity <= maxQuantity) {
       setCartItems(prevItems =>
         prevItems.map(item =>
           item.product.id === productId ? { ...item, quantity } : item
@@ -71,6 +70,7 @@ export const CartProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   const value = useMemo(() => ({
     cartItems,
     cartItemCount: cartItems.reduce((total, item) => total + item.quantity, 0),
+    maxQuantity,
     addToCart,
     removeFromCart,
     updateItemQuantity,
