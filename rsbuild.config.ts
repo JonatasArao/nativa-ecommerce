@@ -15,7 +15,7 @@ export default defineConfig(
     favicon: './src/static/svg/nativa_logo.svg',
   },
   server: {
-    base: process.env.NODE_ENV === "production" ? "/mini-ecommerce" : ""
+    base: process.env.NODE_ENV === "production" ? "/nativa-ecommerce" : ""
   },
   resolve: {
     alias: {
